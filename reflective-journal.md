@@ -12,10 +12,10 @@
 
 ### Attendance
 
-John Wright
-Leone Krauze
-Brayden Dawson
-Dwain Aiolupotea
+- John Wright
+- Leone Krauze
+- Brayden Dawson
+- Dwain Aiolupotea
 
 ### Absent
 
