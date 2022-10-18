@@ -61,3 +61,38 @@ Begin to select collaboration tools appropriate for the team.
 ### Personal reflection
 
 There was a bit of a delay in the project as we were still trying to come up with an idea for a software project. I think we really need to make decisions early and also communicate a lot between team members.
+
+## 02 Team Meeting 18/10/2022
+
+### Date
+
+18 October 2022
+
+### Start time
+
+2.03 pm
+
+### Attendance
+
+- Leone Krauze
+- Brayden Dawson
+- Dwain Aiolupotea
+
+### Absent
+
+- John Wright
+
+### Agenda
+
+- Decide what Project we will work on for the assessment.
+
+### Notes from the Meeting
+
+- As a Team we discussed what project were going to go with. We decided to go with the Ruach Elohim Foundation. The project will be a Front-end website using ReactJS with a contact form. The goal of the website is mainly to find funding and to give information about the foundation and what it does.
+- Leone has already contacted the owner of the foundation and got some requirements and will begin working on the design document.
+- Leone showed us some websites that she researched that were similar to the foundation that we looked at.
+- Dwain and Brayden will begin work on the wireframes to get a idea of the look of the website.
+
+### Meeting ended
+
+3:05 pm
