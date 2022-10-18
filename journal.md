@@ -88,10 +88,11 @@ There was a bit of a delay in the project as we were still trying to come up wit
 
 ### Notes from the Meeting
 
-- As a Team we discussed what project were going to go with. We decided to go with the Ruach Elohim Foundation. The project will be a Front-end website using ReactJS with a contact form. The goal of the website is mainly to find funding and to give information about the foundation and what it does.
-- Leone has already contacted the owner of the foundation and got some requirements and will begin working on the design document.
-- Leone showed us some websites that she researched that were similar to the foundation that we looked at.
-- Dwain and Brayden will begin work on the wireframes to get a idea of the look of the website.
+-
+- Decided on going with the website idea for the Namibian charity foundation named Ruach Elohim. This will be a static front-end website detailing important information about the organization and how to donate to the charity. This website will likely be deployed and used by the organization.
+- Leone will begin with the requirements documentation.
+- Leone showed us some websites that she researched that were similar to the foundation that we looked at. [Safe Haven Baby Boxes](https://shbb.org/), [American Adoptions](https://www.americanadoptions.com/pregnant/safe-haven-baby-box)
+- Dwain and Brayden will begin with the wireframe designs.
 
 ### Meeting ended
 
