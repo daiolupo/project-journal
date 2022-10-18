@@ -97,3 +97,29 @@ There was a bit of a delay in the project as we were still trying to come up wit
 ### Meeting ended
 
 3:05 pm
+
+## 02 Daily Status report 18/10/2022
+
+### Date
+
+18 October 2022
+
+### What I completed today
+
+I worked on some draft version wireframes for the Ruach Elohim website.
+
+### Any issues preventing you from progressing
+
+I was still trying to complete the Team Contract and letting the team know to sign it.
+
+### Actions taken
+
+Put the team contract as first priority before starting the Wireframes.
+
+### Smart goal for the next day
+
+Use design software to create the wireframes.
+
+### Personal reflection
+
+Alway's check the team project proposal to keep track of what to do. Also try to communicate more with the team about what we need to do for next meeting.
