@@ -215,3 +215,68 @@ Look again at the assessment and check what else needs to be done.
 
 I think I need to start to slowly learn some Advanced JavaScript on the side to master the language.
 
+## 04 Team Meeting 21/10/2022
+
+### Date
+
+21 October 2022
+
+### Start time
+
+10.00 am
+
+### Attendance
+
+- Leone Krauze
+- Brayden Dawson
+- Dwain Aiolupotea
+
+### Absent
+
+- John Wright
+
+### Agenda
+
+Stand up meeting: Finalize Team Contract, Project planning document, Wireframes
+
+### Notes from the Meeting
+
+- Team Contract: Dwain is almost finished the Team contract and waiting for the team to sign
+- Project planning: Leone has the business requirements done just waiting on feedback from the team. Leone will also work on the design document as well.
+- Wireframes: Dwain is still working on the wireframes, and finished the landing pages now going to move to the other pages. Brayden will start following behind Dwain and add the mockup versions. 
+
+### Meeting ended
+
+10:46 am
+
+## 05 Daily Status report 21/10/2022
+
+### Date
+
+21 October 2022
+
+### What I completed today
+
+- I completed the Team Contract
+- I completed the draft Wireframes for the landing page
+
+### Any issues preventing you from progressing
+
+- When I was designing the wireframes in Photoshop is was very sluggish and took too long.
+- Brayden suggested using Figma and it was a better solution as the whole team can add their changes.
+
+### Actions taken
+
+Decided to move all the wireframes to Figma online app and it was a lot faster to design things.
+
+### Smart goal for the next day
+
+- Begin working on the other page designs for the wireframes
+- Begin working on the mockups and look at some colour schemes
+
+### Personal reflection
+
+- Communication is really important and daily stand-up meetings really help with progress.
+- What doesn't work well is having to learn something new all the time especially if you have a deadline.
+- We were down one team member for a couple of days but what I've learned is, you have embrace change and have knowledge in all areas of a project in order to be flexible.
+
