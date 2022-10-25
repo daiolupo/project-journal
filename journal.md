@@ -1,6 +1,6 @@
 # Reflective Journal
 
-## 01 Team Meeting 12/10/2022
+## <mark>01 Team Meeting 12/10/2022</mark>
 
 ### Date
 
@@ -62,7 +62,7 @@ Begin to select collaboration tools appropriate for the team.
 
 There was a bit of a delay in the project as we were still trying to come up with an idea for a software project. I think we really need to make decisions early and also communicate a lot between team members.
 
-## 02 Team Meeting 18/10/2022
+## <mark>02 Team Meeting 18/10/2022</mark>
 
 ### Date
 
@@ -124,7 +124,7 @@ Use design software to create the wireframes.
 
 Alway's check the team project proposal to keep track of what to do. Also try to communicate more with the team about what we need to do for next meeting.
 
-## 03 Team Meeting 19/10/2022
+## <mark>03 Team Meeting 19/10/2022</mark>
 
 ### Date
 
@@ -215,7 +215,7 @@ Look again at the assessment and check what else needs to be done.
 
 I think I need to start to slowly learn some Advanced JavaScript on the side to master the language.
 
-## 04 Team Meeting 21/10/2022
+## <mark>04 Team Meeting 21/10/2022</mark>
 
 ### Date
 
@@ -307,7 +307,7 @@ Go back to the requirements documentaion
 - Keep members updated on progress. Communicate often and keep positive.
 - Ask for help and learn from those that are more experienced.
 
-## 05 Team Meeting 26/10/2022
+## <mark>05 Team Meeting 26/10/2022</mark>
 
 ### Date
 
