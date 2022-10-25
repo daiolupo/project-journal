@@ -366,7 +366,7 @@ Stand up meeting:
 
 ### What I completed today
 
-- I complete the draft version of the wireframes and just need some feedback
+- I completed the draft version of the wireframes and just need some feedback
 
 ### Any issues preventing you from progressing
 
@@ -380,6 +380,7 @@ I think I will need a little bit of a break.
 
 - Start working on the new changes from our meeting
 - Begin work on UI/UX designs with Brayden
+- Learn some JavaScript too.
 
 ### Personal reflection
 
