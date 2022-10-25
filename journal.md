@@ -1,6 +1,6 @@
 # Reflective Journal
 
-## 01 Team Meeting 12/10/2022
+## U+1F534 01 Team Meeting 12/10/2022
 
 ### Date
 
