@@ -243,7 +243,7 @@ Stand up meeting: Finalize Team Contract, Project planning document, Wireframes
 
 - Team Contract: Dwain is almost finished the Team contract and waiting for the team to sign
 - Project planning: Leone has the business requirements done just waiting on feedback from the team. Leone will also work on the design document as well.
-- Wireframes: Dwain is still working on the wireframes, and finished the landing pages now going to move to the other pages. Brayden will start following behind Dwain and add the mockup versions. 
+- Wireframes: Dwain is still working on the wireframes, and finished the landing pages now going to move to the other pages. Brayden will start following behind Dwain and add the mockup versions.
 
 ### Meeting ended
 
@@ -280,3 +280,104 @@ Decided to move all the wireframes to Figma online app and it was a lot faster t
 - What doesn't work well is having to learn something new all the time especially if you have a deadline.
 - We were down one team member for a couple of days but what I've learned is, you have embrace change and have knowledge in all areas of a project in order to be flexible.
 
+## 06 Daily Status report 25/10/2022
+
+### Date
+
+25 October 2022
+
+### What I completed today
+
+- Completed the home pages, about pages wireframes
+
+### Any issues preventing you from progressing
+
+- I wasn't sure what to do next after the home and about pages.
+
+### Actions taken
+
+Go back to the requirements documentaion 
+
+### Smart goal for the next day
+
+- Finish wireframes
+
+### Personal reflection
+
+- Keep members updated on progress. Communicate often and keep positive.
+- Ask for help and learn from those that are more experienced.
+
+## 05 Team Meeting 26/10/2022
+
+### Date
+
+26 October 2022
+
+### Start time
+
+10.00 am
+
+### Attendance
+
+- Leone Krauze
+- Brayden Dawson
+- Dwain Aiolupotea
+- John Wright
+
+### Absent
+
+0
+
+### Agenda
+
+Stand up meeting:
+
+- Wireframes
+- Decide if we are going to do wireframes
+- Ask Leone about images for mockups
+- Proof read business requirements doc
+- Proof read system design doc
+- Begin a project dev log doc and add any design changes and reason
+- Team to sign contract
+- Discuss what will be worked on in the coming days
+
+### Notes from the Meeting
+
+- Wireframes complete small changes to the gallery page to remove baby photos and add anonymous testimonials instead
+- add video to the website possibly the landing page
+- research Go fund me accounts and how to add the link into website
+- begin working on mockups and adding themes and colours
+- create context, user role and business domain diagrams and add them to business requirements docs
+- changes to be made to planning docs after reproof reading.
+- Todays take-away
+  - John to edit planning docs
+  - Leone to begin development log documentation
+  - Dwain and Brayden to continue UI/UX
+
+### Meeting ended
+
+11:04 am
+
+## 07 Daily Status report 26/10/2022
+
+### Date
+
+26 October 2022
+
+### What I completed today
+
+- 
+
+### Any issues preventing you from progressing
+
+- 
+
+### Actions taken
+
+### Smart goal for the next day
+
+-
+
+### Personal reflection
+
+-
