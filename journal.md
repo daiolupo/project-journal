@@ -1,6 +1,6 @@
 # Reflective Journal
 
-## 01 Team Meeting 12/10/2022 {#meeting}
+## 01 Team Meeting 12/10/2022
 
 ### Date
 
