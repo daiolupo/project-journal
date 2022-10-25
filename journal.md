@@ -296,7 +296,7 @@ Decided to move all the wireframes to Figma online app and it was a lot faster t
 
 ### Actions taken
 
-Go back to the requirements documentaion 
+Go back to the requirements documentaion
 
 ### Smart goal for the next day
 
@@ -366,18 +366,21 @@ Stand up meeting:
 
 ### What I completed today
 
-- 
+- I complete the draft version of the wireframes and just need some feedback
 
 ### Any issues preventing you from progressing
 
-- 
+- A little bit tired from working on the wireframes late last night.
 
 ### Actions taken
 
+I think I will need a little bit of a break.
+
 ### Smart goal for the next day
 
--
+- Start working on the new changes from our meeting
+- Begin work on UI/UX designs with Brayden
 
 ### Personal reflection
 
--
+- Don't be a hero, get plenty of rest and look after yourself.
