@@ -1,6 +1,6 @@
 # Reflective Journal
 
-## <span style="color:red"> 01 Team Meeting 12/10/2022 </span>
+<span style="color:red">## 01 Team Meeting 12/10/2022</span>
 
 ### Date
 
