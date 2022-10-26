@@ -385,3 +385,34 @@ I think I will need a little bit of a break.
 ### Personal reflection
 
 - Don't be a hero, get plenty of rest and look after yourself.
+
+## 08 Daily Status report 27/10/2022
+
+### Date
+
+27 October 2022
+
+### What I completed today
+
+- I completed sketches for the mobile wireframes for the Software Project, Ruarch & Elohim Foundation.
+
+### Any issues preventing you from progressing
+
+- There were some undecided parts of the wireframes that needed changes but I wasn't sure what they were.
+
+### Actions taken
+
+- I will confirm the changes with the team and sort out the wireframes asap.
+- I also think the navigation on the footer also needs to be resolved as well. I will need to confirm that with the team.
+
+### Smart goal for the next day
+
+- Use the mobile wireframe sketches and design it in Figma.
+- Confirm with the team about doing wireframes for a tablet size wireframes.
+- Continue learning some JavaScript by building a Weather map API website.
+
+### Personal reflection
+
+- What's working well is everyone in the team has a task to work on.
+- What hasn't been working well is some decisions need to be confirmed.
+- What we can do better is keep communicating and often.
