@@ -474,11 +474,19 @@ I think I will need a little bit of a break.
 Stand up meeting:
 
 - Design document
+- mockups
+- footer design
+- control book
+- wireframes
+- model diagram
 
 ### Notes from the Meeting
 
--
+- John will do the Model diagram
+- The whole team made some design decisions for the mockups by Brayden in Figma
+- Leone will do a control book for the whole team project
+- John would like the team check and read over the documentation
 
 ### Meeting ended
 
-00:00 pm
+3:18 pm
