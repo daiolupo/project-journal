@@ -416,3 +416,69 @@ I think I will need a little bit of a break.
 - What's working well is everyone in the team has a task to work on.
 - What hasn't been working well is some decisions need to be confirmed.
 - What we can do better is keep communicating and often.
+
+## 09 Daily Status report 28/10/2022
+
+### Date
+
+28 October 2022
+
+### What I completed today
+
+- I completed the mobile wireframes for the Ruarch & Elohim Foundation software project in Figma.
+
+### Any issues preventing you from progressing
+
+- There were still some undecided parts of the wireframes that needed changes but I wasn't sure what they were.
+- I will probably need to address the footer navigation
+- Need to address the donation info as well
+- Wasn't sure if we needed to do some tablet wireframes.
+
+### Actions taken
+
+- Sort out the issues with the wireframes
+
+### Smart goal for the next day
+
+- Confirm if we need to do some tablet wireframes
+
+### Personal reflection
+
+- What went well today was working together with Brayden on the wireframes.
+- What issues were met were the comments addressed by Brayden about the designs in the mockups and how they were resolved through replying back to his comments about the mockups. Like the amount of gradients, the quotes in the testimonies design section and which picture to select for the hero section of the home page.
+- What could be improved next time is to may be record go through the wireframes together and get feedback.
+
+## <mark>06 Team Meeting 28/10/2022</mark>
+
+### Date
+
+28 October 2022
+
+### Start time
+
+2.00 pm
+
+### Attendance
+
+- Leone Krauze
+- Brayden Dawson
+- Dwain Aiolupotea
+- John Wright
+
+### Absent
+
+0
+
+### Agenda
+
+Stand up meeting:
+
+- Design document
+
+### Notes from the Meeting
+
+-
+
+### Meeting ended
+
+00:00 pm
