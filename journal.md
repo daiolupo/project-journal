@@ -490,3 +490,31 @@ Stand up meeting:
 ### Meeting ended
 
 3:18 pm
+
+## 10 Daily Status report 31/10/2022
+
+### Date
+
+31 October 2022
+
+### What I completed today
+
+- I completed the modifications for the footer navigation for the desktop and mobile wireframes.
+
+### Any issues preventing you from progressing
+
+- I spent a few hours learning JavaScript.
+
+### Actions taken
+
+- I think I should manage my time learning JavaScript. Spend about an hour a day.
+
+### Smart goal for the next day
+
+- Finalize wireframes and mockups.
+
+### Personal reflection
+
+- The team is working on their own tasks.
+- We had a few days without a stand up meetings.
+- I guess we can use the chat to do stand ups.
