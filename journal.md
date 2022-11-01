@@ -518,3 +518,35 @@ Stand up meeting:
 - The team is working on their own tasks.
 - We had a few days without a stand up meetings.
 - I guess we can use the chat to do stand ups.
+
+## 11 Daily Status report 01/11/2022
+
+### Date
+
+01 November 2022
+
+### What I completed today
+
+- I completed the homepage for the Tablet wireframes
+- Read through the requirements and Design Documents and modified some content
+
+### Any issues preventing you from progressing
+
+- I had a offer to do some paid design work from a protential client
+- I went over the one hour limit of learning JavaScript
+
+### Actions taken
+
+- I will need to stick to the learning JavaScript for 1 hour a day.
+- Begin a plan to manage my time with the new design work.
+
+### Smart goal for the next day
+
+- Complete the tablet wireframes.
+- Check what else I need to do for the assessment deadline on Sunday.
+
+### Personal reflection
+
+- The team are all working on their own to finish the tasks.
+- Communication is a little absent between members today.
+- I think we need to may be report our progress in the chat.
