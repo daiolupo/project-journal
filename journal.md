@@ -551,6 +551,37 @@ Stand up meeting:
 - Communication is a little absent between members today.
 - I think we need to may be report our progress in the chat.
 
+## 12 Daily Status report 02/11/2022
+
+### Date
+
+02 November 2022
+
+### What I completed today
+
+- I completed the tablet wireframes
+
+### Any issues preventing you from progressing
+
+- The figma file is beginning to increase in size and beginning to slow down.
+- The assests for the project like images for sponsors, social media are only a few. So the website looks empty.
+
+### Actions taken
+
+- Delete some elements in the figma file that are not being used to speed up the figma project.
+- May be add a few images to the website to make it more interesting.
+
+### Smart goal for the next day
+
+- Work on One design feature x3
+- Work on Team work reflection: Individual and team evaluation
+- explanation of how the project addresses the sustainability, equality, social or contemporary cultural issues show a thorough understanding.
+
+### Personal reflection
+
+- What went well was completing the tasks individually
+- What didn't go well was working on your own can be unmotivating
+- What we can do better is keep communicating amongst team members.
 
 ## <mark>07 Team Meeting 02/11/2022</mark>
 
@@ -586,3 +617,5 @@ Stand up meeting:
 ### Meeting ended
 
 0:00 am/pm
+
+
