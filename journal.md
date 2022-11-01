@@ -550,3 +550,39 @@ Stand up meeting:
 - The team are all working on their own to finish the tasks.
 - Communication is a little absent between members today.
 - I think we need to may be report our progress in the chat.
+
+
+## <mark>07 Team Meeting 02/11/2022</mark>
+
+### Date
+
+02 November 2022
+
+### Start time
+
+0.00 am/pm
+
+### Attendance
+
+- Leone Krauze
+- Brayden Dawson
+- Dwain Aiolupotea
+- John Wright
+
+### Absent
+
+0
+
+### Agenda
+
+Stand up meeting:
+
+- 
+
+### Notes from the Meeting
+
+- 
+
+### Meeting ended
+
+0:00 am/pm
