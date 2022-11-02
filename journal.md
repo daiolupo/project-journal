@@ -591,7 +591,7 @@ Stand up meeting:
 
 ### Start time
 
-0.00 am/pm
+2.30pm
 
 ### Attendance
 
@@ -608,14 +608,21 @@ Stand up meeting:
 
 Stand up meeting:
 
-- 
+- Client communication
+- Control book
+- boiler plate
+- meeting with lecturer
 
 ### Notes from the Meeting
 
-- 
+- Leone created a control book for the software project. The team will check it out.
+- The client speaks in Afrikaan so we decided to communication through Leone who speaks the language. Use snapchat instead to communicate to the client. Leone will record the communication.
+- Do we need to have a meeting with lecturer for the proposal? We will contact our lecturer to confirm.
+- Leone will set up the Boiler plate
+- Dwain will set up the database
+- John and Brayden will be working on the front-end
+- Next Friday 10am with our lecturer
 
 ### Meeting ended
 
-0:00 am/pm
-
-
+3:05pm
