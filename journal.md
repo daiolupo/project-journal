@@ -626,7 +626,8 @@ Stand up meeting:
 - John will add design screenshots to the document and create boiler plate code for front-end
 - Brayden will finish all the website mock-ups
 - 4th November 2022: Friday 10am meeting with our lecturer has been confirmed.
+- Aiming to have tasks completed by next Monday 7th November 2022.
 
 ### Meeting ended
 
-3:05pm
+3:20pm
