@@ -615,13 +615,17 @@ Stand up meeting:
 
 ### Notes from the Meeting
 
+- Business requirements finished. We just need to add the wireframes.
+- Solution design document finished. We just need to add UI/UX mockups.
+- Decided to use a sticky header in the UI and add a floating 'back to top' button that appears down one margin of the screen.
 - Leone created a control book for the software project. The team will check it out.
 - The client speaks in Afrikaan so we decided to communication through Leone who speaks the language. Use snapchat instead to communicate to the client. Leone will record the communication.
 - Do we need to have a meeting with lecturer for the proposal? We will contact our lecturer to confirm.
-- Leone will set up the Boiler plate
-- Dwain will set up the database
-- John and Brayden will be working on the front-end
-- Next Friday 10am with our lecturer
+- Leone will set up the code Boiler plate and contact the client.
+- Dwain will set up the database MongoDB Atlas cluster and begin with database connection.
+- John will add design screenshots to the document and create boiler plate code for front-end
+- Brayden will finish all the website mock-ups
+- 4th November 2022: Friday 10am meeting with our lecturer has been confirmed.
 
 ### Meeting ended
 
