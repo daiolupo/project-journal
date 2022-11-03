@@ -88,7 +88,6 @@ There was a bit of a delay in the project as we were still trying to come up wit
 
 ### Notes from the Meeting
 
--
 - Decided on going with the website idea for the Namibian charity foundation named Ruach Elohim. This will be a static front-end website detailing important information about the organization and how to donate to the charity. This website will likely be deployed and used by the organization.
 - Leone will begin with the requirements documentation.
 - Leone showed us some websites that she researched that were similar to the foundation that we looked at. [Safe Haven Baby Boxes](https://shbb.org/), [American Adoptions](https://www.americanadoptions.com/pregnant/safe-haven-baby-box)
