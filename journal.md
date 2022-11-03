@@ -585,7 +585,7 @@ Stand up meeting:
 
 <div style="color: grey">
 
-## <mark>07 Team Meeting 02/11/2022</mark>
+<h1>07 Team Meeting 02/11/2022</h1>
 
 ### Date
 
