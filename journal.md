@@ -365,7 +365,7 @@ Stand up meeting:
 
 ### What I completed today
 
-- I completed the draft version of the wireframes and just need some feedback
+- I completed moving the designs from photoshop to online Figma app and did the draft version of the wireframes and just need some feedback.
 
 ### Any issues preventing you from progressing
 
