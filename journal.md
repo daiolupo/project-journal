@@ -105,7 +105,7 @@ There was a bit of a delay in the project as we were still trying to come up wit
 
 ### What I completed today
 
-I worked on some draft version wireframes for the Ruach Elohim website.
+I worked on some draft version wireframes for the Ruach Elohim website. Completed the home or landing page and about pages in photoshop.
 
 ### Any issues preventing you from progressing
 
