@@ -583,6 +583,8 @@ Stand up meeting:
 - What didn't go well was working on your own can be unmotivating
 - What we can do better is keep communicating amongst team members.
 
+<div class="meeting">
+
 ## <mark>07 Team Meeting 02/11/2022</mark>
 
 ### Date
@@ -631,6 +633,8 @@ Stand up meeting:
 ### Meeting ended
 
 3:20pm
+
+</div>
 
 ## 13 Daily Status report 03/11/2022
 
