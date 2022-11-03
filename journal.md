@@ -766,7 +766,7 @@ I completed the task of setting up the MongoDB Atlas database for the software p
 
 ### 2. One design commentary:
 
-#### Explain one design feature in each app that you contributed to (three in total). Include evidence of your contribution.
+#### Explanation of one design feature in each app that I contributed to (three in total). And the evidence of my contribution.
 
 Design feature in the Website application that I contributed to were:
 
