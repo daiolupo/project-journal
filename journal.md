@@ -583,7 +583,7 @@ Stand up meeting:
 - What didn't go well was working on your own can be unmotivating
 - What we can do better is keep communicating amongst team members.
 
-<div style="background-color: grey">
+<div style="color: grey">
 
 ## <mark>07 Team Meeting 02/11/2022</mark>
 
