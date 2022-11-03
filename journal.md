@@ -639,22 +639,26 @@ Stand up meeting:
 
 ### What I completed today
 
--
+- I completed the task of setting up a MongoDB Atlas database for the software project.
+- I also sent out invitations to the team to give them access to the database ready for the development stage,
 
 ### Any issues preventing you from progressing
 
--
+- I spent too much time trying to test the markdown styling on this file.
+- I also spent too much time learning JavaScript and spent more than the usual 1 hour limit.
 
 ### Actions taken
 
--
+- Be more disciplined with my time and also have breaks.
+- Use the Pomodoro timer each day.
 
 ### Smart goal for the next day
 
--
+- Begin preparing for the Software proposal hand in on Sunday.
+- Update my personal journal and add the required information for submission.
 
 ### Personal reflection
 
-- What went well
-- What didn't go well
-- What we can improve
+- What went well with the team was we managed to finish everything early.
+- What didn't go well was we didn't review and finalize most of our work and tasks.
+- What we can improve is having a macro view of the whole project where we can see where we are in the whole scheme of things.
