@@ -663,7 +663,7 @@ Stand up meeting:
 - What didn't go well was we didn't review and finalize most of our work and tasks.
 - What we can improve is having a macro view of the whole project where we can see where we are in the whole scheme of things.
 
-[This is a hidden comment in markdown:]: #
+[This is a hidden comment in markdown: Here is a link for a markdown guide https://www.markdownguide.org/]: #
 [how to add an image in markdown:]: #
 
 ![mobile sketches, wireframes](/img/01-Wireframes-REF.jpg)
