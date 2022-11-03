@@ -631,3 +631,31 @@ Stand up meeting:
 ### Meeting ended
 
 3:20pm
+
+## 13 Daily Status report 03/11/2022
+
+### Date
+
+03 November 2022
+
+### What I completed today
+
+-
+
+### Any issues preventing you from progressing
+
+-
+
+### Actions taken
+
+-
+
+### Smart goal for the next day
+
+-
+
+### Personal reflection
+
+- What went well
+- What didn't go well
+- What we can improve
