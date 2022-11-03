@@ -663,8 +663,178 @@ Stand up meeting:
 - What didn't go well was we didn't review and finalize most of our work and tasks.
 - What we can improve is having a macro view of the whole project where we can see where we are in the whole scheme of things.
 
-[This is a hidden comment in markdown: Here is a link for a markdown guide https://www.markdownguide.org/]: #
-[how to add an image in markdown:]: #
+## <mark>08 Team Meeting 04/11/2022</mark>
 
-![mobile sketches, wireframes](/img/01-Wireframes-REF.jpg)
-<img src="img/02-Wireframes-REF.jpg" width="600">
+### Date
+
+04 November 2022
+
+### Start time
+
+10.00am
+
+### Attendance
+
+- Leone Krauze
+- Dwain Aiolupotea
+- John Wright
+- Ying Ching Goh (Lecturer)
+
+### Absent
+
+- Brayden Dawson (Sick)
+
+### Agenda
+
+Team and Lecturer meeting:
+
+- Present our proposal to our lecturer for feedback.
+
+### Notes from the Meeting
+
+- Is there a way for an admin team to update the content? We can add invisible links that an admin team have access to. To enable the changing of content.
+- A link for Interactive design components in [figma](<https://www.figma.com/file/YmYHO4Qm058zaPhveGL2SQ/Interactive-Components---Playground-File-(Community)?node-id=2%3A42>)
+- Work on the front-end in the first week and then work on the back-end on the second week.
+- Gift exchange style shopping cart. Like Amazon wishlist - buy items that the foundation needs for them. Perhaps for the next phase of development.
+
+### Meeting ended
+
+10:23am
+
+## 14 Daily Status report 04/11/2022
+
+### Date
+
+04 November 2022
+
+### What I completed today
+
+- I completed the task of turning the figma wireframes to a prototype
+
+### Any issues preventing you from progressing
+
+- I had a meeting today with our lecturer
+- I had a tutorial today with our lecturer
+
+### Actions taken
+
+- Find ways to be more productive and use my time more wisely
+
+### Smart goal for the next day
+
+- Get the back-end ready for development
+
+### Personal reflection
+
+- What went well today was learning new things about figma and learning more about the project.
+- What didn't go well was not asking enough questions.
+- What I can improve is to be open and also learn from mistakes.
+
+## Individual Reflective Journal for the Software Project Proposal
+
+### 1. Summary of personal contributions:
+
+#### The tasks I completed
+
+The tasks I completed were:
+
+TEAM CONTRACT
+
+I worked on the Team Contract and set that up for the Team to sign.
+
+<img src="img/TeamContractEvidence.jpg" width="900">
+
+WIREFRAMES
+
+Desktop
+
+<img src="img/Wireframes-desktop-finished.jpg" width="900">
+
+Mobile
+
+<img src="img/mobile-wireframes.jpg" width="900">
+
+Tablet
+
+<img src="img/tablet-wireframes.jpg" width="900">
+
+DATABASE
+
+I completed the task of setting up the MongoDB Atlas database for the software project web application.
+
+<img src="img/MongoDB-Atlas-database.jpg" width="900">
+
+### 2. One design commentary:
+
+#### Explain one design feature in each app that you contributed to (three in total). Include evidence of your contribution.
+
+Design feature in the Website application that I contributed to were:
+
+WIREFRAMES
+
+I worked on some draft version of the landing page wireframes for the Ruach Elohim Foundation website in Photoshop. I sent the wireframes to the team for feedback and for modifications.
+
+<img src="img/Wireframes-photoshop.jpg" width="900">
+
+I modified the landing page draft wireframes by adding login or account link in the navigation bar.
+We decided to move all the designs from Photoshop to online app, Figma for collaboration and live feedback. As that was much easier for us as a team to comment and quickly get feedback on the UI/UX designs.
+
+<img src="img/Wireframes-transfer-to-figma.jpg" width="900">
+
+Completed the rest of the wireframes for desktop. Then after completing the desktop version I struggled to design the mobile versions. So I though of sketching the mobile versions as it was quicker and much easier to do than in Figma.
+
+<img src="img/Wireframes-desktop-finished.jpg" width="900">
+
+So I started sketching out the mobile design by using the desktop as a guide. It was much more difficult to do as there was very little space to work with.
+
+<img src="img/01-Wireframes-REF.jpg" width="900">
+
+<img src="img/02-Wireframes-REF.jpg" width="900">
+
+Creating the mobile versions of the wireframes took a lot longer than I thought. I found I had to extend the frame of the mobile down longer to accommodate the shift of the layout to a column structure. I also left out a lot of images as I know that on mobile images can eat up a lot of data.
+
+Completed mobile wireframes. I chose to use just black, white and gray to only focus on the design aspects and the UI/UX elements.
+
+<img src="img/mobile-wireframes.jpg" width="900">
+
+Now after completing the mobile wireframes, I got to designing the tablet wireframes. It was a lot easier as I had a fair idea of what the UI/UX will look like for a tablet as I was familiar with both desktop and mobile.
+
+<img src="img/tablet-wireframes.jpg" width="900">
+
+### 3. A Reflection on the Teamwork:
+
+#### What went well
+
+What went well with the team was how easy it was to just allocate the tasks that we needed to do for the project. What also went well was the whole team was available and the team didn’t have any other commitments like work. We really had a team that was positive and approached the tasks by volunteering themselves. Communication was responsive in the teams chat and our meetings were really productive and positive. We all gave each other feedback on our work and also supported each other by looking over each other’s work.
+
+#### What issues were met and how they were resolved
+
+**1 ISSUE**
+
+What issues were met during the project was that one of our team members had a family issue to deal with. It was right after we started the project and for a few days we had to continue on with the tasks with one team member missing. It really slowed us down and we just couldn’t finish the tasks fast enough.
+
+**1 RESOLUTION**
+
+How we solved the issue of the missing team member was we took on more tasks. Also we recorded our meetings and kept records of our plans for the missing team member to be able update themselves quickly once they decide to get back to the project.
+
+**2 ISSUE**
+Another issue we had was the client was on the other side of the world and spoke in another language. Our only way to contact the client was through one of our team members who spoke and understood the language. A meeting with the client would be difficult because of the difference in time zones.
+
+**2 RESOLUTION**
+How we solved the issue with the client was the team decided to communicate to the client through the team member that spoke the language.
+
+#### What could be improved next time.
+
+What could be improved next time would be, to create a contingency plan for unexpected issues like an absent team member. We could have created a risk management system document to outline all the possible risks and create a plan to mitigate each of those risks.
+
+### 4. A reflection on how this project can address some sustainability, equity, social or contemporary cultural issues. Possible issues to touch upon may include; Sustainable travel, Preserving cultural traditions, Designing products for sustainability;
+
+#### The social issues the solution addresses
+
+**SOCIAL ISSUE**
+
+The social issues that we addressed was the rise of deliberate baby dumping in Namibia. A serious social issue of mothers with unplanned pregnancies or unwanted babies to choose to dump or kill their own babies.
+
+**SOLUTION**
+
+The solution for the issue was to create awareness and to prevent unsafe baby dumping through the creation of a website. The website was also a way to also help raise funds via donations and also an avenue for people to donate goods to the foundation.
