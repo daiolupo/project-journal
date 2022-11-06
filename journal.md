@@ -838,3 +838,31 @@ The social issues that we addressed was the rise of deliberate baby dumping in N
 **SOLUTION**
 
 The solution for the issue was to create awareness and to prevent unsafe baby dumping through the creation of a website. The website was also a way to also help raise funds via donations and also an avenue for people to donate goods to the foundation.
+
+## 15 Daily Status report 07/11/2022
+
+### Date
+
+07 November 2022
+
+### What I completed today
+
+- I completed the task 
+
+### Any issues preventing you from progressing
+
+- I had to baby sit one of my sick nieces.
+
+### Actions taken
+
+- 
+
+### Smart goal for the next day
+
+- 
+
+### Personal reflection
+
+- What went well today 
+- What didn't go well 
+- What I can improve is
