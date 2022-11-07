@@ -847,7 +847,7 @@ The solution for the issue was to create awareness and to prevent unsafe baby du
 
 ### What I completed today
 
-- I completed the task 
+- I completed the task of adding animations to the prototypes in figma.
 
 ### Any issues preventing you from progressing
 
@@ -855,14 +855,42 @@ The solution for the issue was to create awareness and to prevent unsafe baby du
 
 ### Actions taken
 
-- 
+- Shift my working schedule later in the day.
 
 ### Smart goal for the next day
 
-- 
+- Add more animations to the prototypes mobile version in figma.
 
 ### Personal reflection
 
-- What went well today 
-- What didn't go well 
+- What went well today was doing a standup meeting in chat
+- What didn't go well was not being able to get things done due to other commitments.
+- What I can improve is try to work around interuptions when they arise.
+
+## 15 Daily Status report 08/11/2022
+
+### Date
+
+08 November 2022
+
+### What I completed today
+
+- I completed the task of
+
+### Any issues preventing you from progressing
+
+-
+
+### Actions taken
+
+-
+
+### Smart goal for the next day
+
+-
+
+### Personal reflection
+
+- What went well today was
+- What didn't go well was
 - What I can improve is
