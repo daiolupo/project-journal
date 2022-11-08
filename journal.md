@@ -903,22 +903,22 @@ The solution for the issue was to create awareness and to prevent unsafe baby du
 
 ### What I completed today
 
-- I completed the task .
+- I completed today was.
 
 ### Any issues preventing you from progressing
 
-- I 
+- I
 
 ### Actions taken
 
-- 
+-
 
 ### Smart goal for the next day
 
-- 
+-
 
 ### Personal reflection
 
-- What went well 
-- What didn't go well 
-- What I can improve is 
+- What went well
+- What didn't go well
+- What I can improve is
