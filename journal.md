@@ -1,8 +1,12 @@
 # Reflective Journal
 
-# Table of Contents
-1. [Meeting 01](#01meeting)
-2. [Daily Status report 17 Oct 2022](#01daily)
+# Table of Contents Meetings
+1. [Team Meeting 12 Oct 2022](#01meeting)
+2. [Team Meeting 18 Oct 2022](#02meeting)
+
+# Table of Contents Daily Status reports
+1. [Daily Status report 17 Oct 2022](#01daily)
+2. [Daily Status report 18 Oct 2022](#02daily)
 
 ## <mark>01 Team Meeting 12/10/2022</mark><a name="01meeting"></a>
 
@@ -66,7 +70,7 @@ Begin to select collaboration tools appropriate for the team.
 
 There was a bit of a delay in the project as we were still trying to come up with an idea for a software project. I think we really need to make decisions early and also communicate a lot between team members.
 
-## <mark>02 Team Meeting 18/10/2022</mark>
+## <mark>02 Team Meeting 18/10/2022</mark><a name="02meeting"></a>
 
 ### Date
 
@@ -101,7 +105,7 @@ There was a bit of a delay in the project as we were still trying to come up wit
 
 3:05 pm
 
-## 02 Daily Status report 18/10/2022
+## 02 Daily Status report 18/10/2022<a name="02daily"></a>
 
 ### Date
 
@@ -127,7 +131,7 @@ Use design software to create the wireframes.
 
 Alway's check the team project proposal to keep track of what to do. Also try to communicate more with the team about what we need to do for next meeting.
 
-## <mark>03 Team Meeting 19/10/2022</mark>
+## <mark>03 Team Meeting 19/10/2022</mark><a name="03meeting"></a>
 
 ### Date
 
