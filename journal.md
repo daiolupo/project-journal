@@ -867,7 +867,7 @@ The solution for the issue was to create awareness and to prevent unsafe baby du
 - What didn't go well was not being able to get things done due to other commitments.
 - What I can improve is try to work around interuptions when they arise.
 
-## 15 Daily Status report 08/11/2022
+## 16 Daily Status report 08/11/2022
 
 ### Date
 
@@ -875,22 +875,50 @@ The solution for the issue was to create awareness and to prevent unsafe baby du
 
 ### What I completed today
 
-- I completed the task of
+- I completed the task of finishing the prototypes for Wireframes and prototypes in figma.
 
 ### Any issues preventing you from progressing
 
--
+- I had to learn how to use components and variants in figma to get the prototype working on mobile menu.
 
 ### Actions taken
 
--
+- watched a tutorial about how to implement components and variants in figma.
 
 ### Smart goal for the next day
 
--
+- Learn reactJS and NodeJS and back-end development
 
 ### Personal reflection
 
-- What went well today was
-- What didn't go well was
-- What I can improve is
+- What went well today was learning some new things in figma
+- What didn't go well was it took up a lot of time to learn figma
+- What I can improve is take notes and keep learning.
+
+## 17 Daily Status report 09/11/2022
+
+### Date
+
+09 November 2022
+
+### What I completed today
+
+- I completed the task .
+
+### Any issues preventing you from progressing
+
+- I 
+
+### Actions taken
+
+- 
+
+### Smart goal for the next day
+
+- 
+
+### Personal reflection
+
+- What went well 
+- What didn't go well 
+- What I can improve is 
