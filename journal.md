@@ -895,6 +895,47 @@ The solution for the issue was to create awareness and to prevent unsafe baby du
 - What didn't go well was it took up a lot of time to learn figma
 - What I can improve is take notes and keep learning.
 
+## <mark>09 Team Meeting 09/11/2022</mark>
+
+### Date
+
+09 November 2022
+
+### Start time
+
+11.30am
+
+### Attendance
+
+- Leone Krauze
+- Dwain Aiolupotea
+- John Wright
+- Brayden Dawson
+
+### Absent
+
+- 0
+
+### Agenda
+
+Team and Lecturer meeting:
+
+- Development
+
+### Notes from the Meeting
+
+- Watching Tutorials ReactJS and Tailwind
+- The web app is in a skeleton like app at the moment
+- Dwain will do the API calls authentication/authorisation
+- Leone will do the sign-up and login pages
+- John will do navigation
+- Brayden will do all the background and styling: Footer
+- Send website assests: icon of logo, gradient photo for hero section in a folder to the team.
+
+### Meeting ended
+
+- 12:11pm
+
 ## 17 Daily Status report 09/11/2022
 
 ### Date
@@ -922,3 +963,4 @@ The solution for the issue was to create awareness and to prevent unsafe baby du
 - What went well
 - What didn't go well
 - What I can improve is
+
