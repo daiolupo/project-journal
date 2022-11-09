@@ -37,6 +37,7 @@
 15. [Daily Status report 07 Nov 2022](#15daily)
 16. [Daily Status report 08 Nov 2022](#16daily)
 17. [Daily Status report 09 Nov 2022](#17daily)
+18. [Daily Status report 10 Nov 2022](#18daily)
 
 ## <mark>01 Team Meeting 12/10/2022</mark><a name="01meeting"></a>
 
@@ -1034,23 +1035,53 @@ Team and Lecturer meeting:
 
 ### What I completed today
 
-- I completed today was.
+- Today I completed the task of cloning the Software project repository on github.
 
 ### Any issues preventing you from progressing
 
-- I
+- I was spending a lot of time learning ReactJS from our tutor today.
 
 ### Actions taken
 
--
+- I will have to learn more NodeJS, MongoDB, ExpressJS, Mongoose and Authorisation/Authentication for the software project.
 
 ### Smart goal for the next day
 
--
+- Start implementing the database connection
 
 ### Personal reflection
 
-- What went well
+- What went well today was learning the basics of ReactJS
+- What didn't go well was it's still very difficult to learn and retain what I've learned.
+- What I can improve is take notes while learning and to realise that my knowledge in JavaScript is a work in progress.
+
+[Go back to Table of Contents](#toc)
+
+## 18 Daily Status report 10/11/2022<a name="18daily"></a>
+
+### Date
+
+10 November 2022
+
+### What I completed today
+
+- Today I completed
+
+### Any issues preventing you from progressing
+
+- The issues today
+
+### Actions taken
+
+- The action I will take is
+
+### Smart goal for the next day
+
+- The smart goal for tomorrow is
+
+### Personal reflection
+
+- What went well today
 - What didn't go well
 - What I can improve is
 
