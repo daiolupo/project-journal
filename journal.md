@@ -1,6 +1,6 @@
 # Reflective Journal
 
-# Table of Contents
+# Table of Contents<a name="toc"></a>
 
 ## Individual Reflective Journal
 
@@ -36,7 +36,7 @@
 14. [Daily Status report 04 Nov 2022](#14daily)
 15. [Daily Status report 07 Nov 2022](#15daily)
 16. [Daily Status report 08 Nov 2022](#16daily)
-17. [Daily Status report 09 Nov 2022](#17daily)
+17. [Daily Status report 09 Nov 2022][#17daily]
 
 ## <mark>01 Team Meeting 12/10/2022</mark><a name="01meeting"></a>
 
@@ -74,6 +74,8 @@
 
 10:16am
 
+[Go back to Table of Contents](#toc)
+
 ## 01 Daily Status report 17/10/2022<a name="01daily"></a>
 
 ### Date
@@ -99,6 +101,8 @@ Begin to select collaboration tools appropriate for the team.
 ### Personal reflection
 
 There was a bit of a delay in the project as we were still trying to come up with an idea for a software project. I think we really need to make decisions early and also communicate a lot between team members.
+
+[Go back to Table of Contents](#toc)
 
 ## <mark>02 Team Meeting 18/10/2022</mark><a name="02meeting"></a>
 
@@ -135,6 +139,8 @@ There was a bit of a delay in the project as we were still trying to come up wit
 
 3:05 pm
 
+[Go back to Table of Contents](#toc)
+
 ## 02 Daily Status report 18/10/2022<a name="02daily"></a>
 
 ### Date
@@ -160,6 +166,8 @@ Use design software to create the wireframes.
 ### Personal reflection
 
 Alway's check the team project proposal to keep track of what to do. Also try to communicate more with the team about what we need to do for next meeting.
+
+[Go back to Table of Contents](#toc)
 
 ## <mark>03 Team Meeting 19/10/2022</mark><a name="03meeting"></a>
 
@@ -197,6 +205,8 @@ Alway's check the team project proposal to keep track of what to do. Also try to
 
 2:49 pm
 
+[Go back to Table of Contents](#toc)
+
 ## 03 Daily Status report 19/10/2022<a name="03daily"></a>
 
 ### Date
@@ -223,6 +233,8 @@ I just put placeholder text or lorim ipsum and basic shapes for icons, images an
 ### Personal reflection
 
 I think I need to start to slowly learn some Advanced JavaScript on the side to master the language.
+
+[Go back to Table of Contents](#toc)
 
 ## 04 Daily Status report 20/10/2022<a name="04daily"></a>
 
@@ -251,6 +263,8 @@ Look again at the assessment and check what else needs to be done.
 ### Personal reflection
 
 I think I need to start to slowly learn some Advanced JavaScript on the side to master the language.
+
+[Go back to Table of Contents](#toc)
 
 ## <mark>04 Team Meeting 21/10/2022</mark><a name="04meeting"></a>
 
@@ -286,6 +300,8 @@ Stand up meeting: Finalize Team Contract, Project planning document, Wireframes
 
 10:46 am
 
+[Go back to Table of Contents](#toc)
+
 ## 05 Daily Status report 21/10/2022<a name="05daily"></a>
 
 ### Date
@@ -317,6 +333,8 @@ Decided to move all the wireframes to Figma online app and it was a lot faster t
 - What doesn't work well is having to learn something new all the time especially if you have a deadline.
 - We were down one team member for a couple of days but what I've learned is, you have embrace change and have knowledge in all areas of a project in order to be flexible.
 
+[Go back to Table of Contents](#toc)
+
 ## 06 Daily Status report 25/10/2022<a name="06daily"></a>
 
 ### Date
@@ -343,6 +361,8 @@ Go back to the requirements documentaion
 
 - Keep members updated on progress. Communicate often and keep positive.
 - Ask for help and learn from those that are more experienced.
+
+[Go back to Table of Contents](#toc)
 
 ## <mark>05 Team Meeting 26/10/2022</mark><a name="05meeting"></a>
 
@@ -395,6 +415,8 @@ Stand up meeting:
 
 11:04 am
 
+[Go back to Table of Contents](#toc)
+
 ## 07 Daily Status report 26/10/2022<a name="07daily"></a>
 
 ### Date
@@ -422,6 +444,8 @@ I think I will need a little bit of a break.
 ### Personal reflection
 
 - Don't be a hero, get plenty of rest and look after yourself.
+
+[Go back to Table of Contents](#toc)
 
 ## 08 Daily Status report 27/10/2022<a name="08daily"></a>
 
@@ -454,6 +478,8 @@ I think I will need a little bit of a break.
 - What hasn't been working well is some decisions need to be confirmed.
 - What we can do better is keep communicating and often.
 
+[Go back to Table of Contents](#toc)
+
 ## 09 Daily Status report 28/10/2022<a name="09daily"></a>
 
 ### Date
@@ -484,6 +510,8 @@ I think I will need a little bit of a break.
 - What went well today was working together with Brayden on the wireframes.
 - What issues were met were the comments addressed by Brayden about the designs in the mockups and how they were resolved through replying back to his comments about the mockups. Like the amount of gradients, the quotes in the testimonies design section and which picture to select for the hero section of the home page.
 - What could be improved next time is to may be record go through the wireframes together and get feedback.
+
+[Go back to Table of Contents](#toc)
 
 ## <mark>06 Team Meeting 28/10/2022</mark><a name="06meeting"></a>
 
@@ -528,6 +556,8 @@ Stand up meeting:
 
 3:18 pm
 
+[Go back to Table of Contents](#toc)
+
 ## 10 Daily Status report 31/10/2022<a name="10daily"></a>
 
 ### Date
@@ -555,6 +585,8 @@ Stand up meeting:
 - The team is working on their own tasks.
 - We had a few days without a stand up meetings.
 - I guess we can use the chat to do stand ups.
+
+[Go back to Table of Contents](#toc)
 
 ## 11 Daily Status report 01/11/2022<a name="11daily"></a>
 
@@ -588,6 +620,8 @@ Stand up meeting:
 - Communication is a little absent between members today.
 - I think we need to may be report our progress in the chat.
 
+[Go back to Table of Contents](#toc)
+
 ## 12 Daily Status report 02/11/2022<a name="12daily"></a>
 
 ### Date
@@ -619,6 +653,8 @@ Stand up meeting:
 - What went well was completing the tasks individually
 - What didn't go well was working on your own can be unmotivating
 - What we can do better is keep communicating amongst team members.
+
+[Go back to Table of Contents](#toc)
 
 ## <mark>07 Team Meeting 02/11/2022</mark><a name="07meeting"></a>
 
@@ -669,6 +705,8 @@ Stand up meeting:
 
 3:20pm
 
+[Go back to Table of Contents](#toc)
+
 ## 13 Daily Status report 03/11/2022<a name="13daily"></a>
 
 ### Date
@@ -700,6 +738,8 @@ Stand up meeting:
 - What went well with the team was we managed to finish everything early.
 - What didn't go well was we didn't review and finalize most of our work and tasks.
 - What we can improve is having a macro view of the whole project where we can see where we are in the whole scheme of things.
+
+[Go back to Table of Contents](#toc)
 
 ## <mark>08 Team Meeting 04/11/2022</mark><a name="08meeting"></a>
 
@@ -739,6 +779,8 @@ Team and Lecturer meeting:
 
 10:23am
 
+[Go back to Table of Contents](#toc)
+
 ## 14 Daily Status report 04/11/2022<a name="14daily"></a>
 
 ### Date
@@ -767,6 +809,8 @@ Team and Lecturer meeting:
 - What went well today was learning new things about figma and learning more about the project.
 - What didn't go well was not asking enough questions.
 - What I can improve is to be open and also learn from mistakes.
+
+[Go back to Table of Contents](#toc)
 
 ## Individual Reflective Journal for the Software Project Proposal<a name="01proposal"></a>
 
@@ -877,6 +921,8 @@ The social issues that we addressed was the rise of deliberate baby dumping in N
 
 The solution for the issue was to create awareness and to prevent unsafe baby dumping through the creation of a website. The website was also a way to also help raise funds via donations and also an avenue for people to donate goods to the foundation.
 
+[Go back to Table of Contents](#toc)
+
 ## 15 Daily Status report 07/11/2022<a name="15daily"></a>
 
 ### Date
@@ -905,6 +951,8 @@ The solution for the issue was to create awareness and to prevent unsafe baby du
 - What didn't go well was not being able to get things done due to other commitments.
 - What I can improve is try to work around interuptions when they arise.
 
+[Go back to Table of Contents](#toc)
+
 ## 16 Daily Status report 08/11/2022<a name="16daily"></a>
 
 ### Date
@@ -932,6 +980,8 @@ The solution for the issue was to create awareness and to prevent unsafe baby du
 - What went well today was learning some new things in figma
 - What didn't go well was it took up a lot of time to learn figma
 - What I can improve is take notes and keep learning.
+
+[Go back to Table of Contents](#toc)
 
 ## <mark>09 Team Meeting 09/11/2022</mark><a name="09meeting"></a>
 
@@ -974,6 +1024,8 @@ Team and Lecturer meeting:
 
 - 12:11pm
 
+[Go back to Table of Contents](#toc)
+
 ## 17 Daily Status report 09/11/2022<a name="17daily"></a>
 
 ### Date
@@ -1001,3 +1053,5 @@ Team and Lecturer meeting:
 - What went well
 - What didn't go well
 - What I can improve is
+
+[Go back to Table of Contents](#toc)
