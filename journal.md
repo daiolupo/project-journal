@@ -1120,6 +1120,8 @@ Team meeting:
 ### Notes from the Meeting
 
 - John completed the navigation and styling the links
+- Dwain completed setting up the server for the back-end
+- Dwain will connect the database to the server
 - Dwain will send original file of the logo to the team
 - Brayden completed the footer styling the links
 - Leone will be working on the signup and login pages
