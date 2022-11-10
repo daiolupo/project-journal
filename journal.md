@@ -1125,7 +1125,7 @@ Team meeting:
 - Dwain will send original file of the logo to the team
 - Brayden completed the footer styling the links
 - Leone will be working on the signup and login pages
-- Discussed hover for effect for links lift
+- The team discussed using a hover effect for links. May be use a lift effect when hovering on the links.
 - Team will think of CRUD features for Admin role to modify testimony page
 - Discussed deploying the project live
 
