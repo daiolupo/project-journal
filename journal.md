@@ -17,6 +17,7 @@
 7. [Team Meeting 02 Nov 2022](#07meeting)
 8. [Team Meeting 04 Nov 2022](#08meeting)
 9. [Team Meeting 09 Nov 2022](#09meeting)
+10. [Team Meeting 11 Nov 2022](#10meeting)
 
 ## Daily Status reports
 
@@ -1085,5 +1086,70 @@ Team and Lecturer meeting:
 - What went well today was I managed to set up the server quite successfully.
 - What didn't go well was the installation of the dependencies.
 - What I can improve is work through the issues by having a break and then coming back to it.
+
+[Go back to Table of Contents](#toc)
+
+## <mark>10 Team Meeting 11/11/2022</mark><a name="10meeting"></a>
+
+### Date
+
+11 November 2022
+
+### Start time
+
+00.00 am/pm
+
+### Attendance
+
+- Leone Krauze
+- Dwain Aiolupotea
+- John Wright
+- Brayden Dawson
+
+### Absent
+
+- 0
+
+### Agenda
+
+Team meeting:
+
+-
+
+### Notes from the Meeting
+
+-
+
+### Meeting ended
+
+- 00:00 am/pm
+
+[Go back to Table of Contents](#toc)
+
+## 19 Daily Status report 10/11/2022<a name="19daily"></a>
+
+### Date
+
+11 November 2022
+
+### What I completed today
+
+-
+
+### Any issues preventing you from progressing
+
+-
+
+### Actions taken
+
+-
+
+### Smart goal for the next day
+
+-
+
+### Personal reflection
+
+-
 
 [Go back to Table of Contents](#toc)
