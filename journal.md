@@ -1065,24 +1065,25 @@ Team and Lecturer meeting:
 
 ### What I completed today
 
-- Today I completed
+- Today I completed the task of cloning the software project repo. Installing the all the dependencies.
+- I completed the task of setting up the server with NodeJS and ExpressJS.
 
 ### Any issues preventing you from progressing
 
-- The issues today
+- The issues today was cloning the repo and installing the dependencies. I had a lot of issues with dependency errors and had to delete the whole project about five times and to start all over again.
 
 ### Actions taken
 
-- The action I will take is
+- The action I had taken was to resolve the dependency issues as quick as possible to get a running web application.
 
 ### Smart goal for the next day
 
-- The smart goal for tomorrow is
+- Implement a connection from the server to the MongoDB Atlas database.
 
 ### Personal reflection
 
-- What went well today
-- What didn't go well
-- What I can improve is
+- What went well today was I managed to set up the server quite successfully.
+- What didn't go well was the installation of the dependencies.
+- What I can improve is work through the issues by having a break and then coming back to it.
 
 [Go back to Table of Contents](#toc)
