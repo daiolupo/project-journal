@@ -1097,7 +1097,7 @@ Team and Lecturer meeting:
 
 ### Start time
 
-00.00 am/pm
+11.00 am
 
 ### Attendance
 
@@ -1114,19 +1114,25 @@ Team and Lecturer meeting:
 
 Team meeting:
 
--
+- Standup
 
 ### Notes from the Meeting
 
--
+- John completed the navigation and styling the links
+- Dwain will send original file of the logo to the team
+- Brayden completed the footer styling the links
+- Leone will be working on the signup and login pages
+- Discussed hover for effect for links lift
+- Team will think of CRUD features for Admin role to modify testimony page
+- Discussed deploying the project live
 
 ### Meeting ended
 
-- 00:00 am/pm
+- 12:00 pm
 
 [Go back to Table of Contents](#toc)
 
-## 19 Daily Status report 10/11/2022<a name="19daily"></a>
+## 19 Daily Status report 11/11/2022<a name="19daily"></a>
 
 ### Date
 
