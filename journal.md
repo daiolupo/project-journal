@@ -40,6 +40,8 @@
 17. [Daily Status report 09 Nov 2022](#17daily)
 18. [Daily Status report 10 Nov 2022](#18daily)
 19. [Daily Status report 11 Nov 2022](#19daily)
+20. [Daily Status report 14 Nov 2022](#20daily)
+21. [Daily Status report 14 Nov 2022](#21daily)
 
 ## <mark>01 Team Meeting 12/10/2022</mark><a name="01meeting"></a>
 
@@ -1195,7 +1197,7 @@ Team meeting:
 
 [Go back to Table of Contents](#toc)
 
-## 21 Daily Status report 14/11/2022<a name="21daily"></a>
+## 21 Daily Status report 15/11/2022<a name="21daily"></a>
 
 ### Date
 
