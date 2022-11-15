@@ -1067,7 +1067,7 @@ Team and Lecturer meeting:
 
 ### What I completed today
 
-- Today I completed the task of cloning the software project repo. Installing the all the dependencies.
+- Today I completed the task of installing the all the dependencies of the front and backend of the software project.
 - I completed the task of setting up the server with NodeJS and ExpressJS.
 
 ### Any issues preventing you from progressing
@@ -1143,22 +1143,86 @@ Team meeting:
 
 ### What I completed today
 
--
+- I completed the task of setting up the code for the backend.
 
 ### Any issues preventing you from progressing
 
--
+- I'm having issues with connecting to the database.
 
 ### Actions taken
 
--
+- I need to read up on the documentation to figure out what I'm doing wrong.
 
 ### Smart goal for the next day
 
--
+- Continue connecting the server to the Database.
 
 ### Personal reflection
 
--
+- What went well today was never giving up focus.
+- What didn't go well was the connection to the database. I couldn't get it to work.
+- What I can improve next time is don't be afraid to ask for help.
+
+[Go back to Table of Contents](#toc)
+
+## 20 Daily Status report 14/11/2022<a name="20daily"></a>
+
+### Date
+
+14 November 2022
+
+### What I completed today
+
+- I completed the task of connecting the database.
+
+### Any issues preventing you from progressing
+
+- I had a few errands to run that might have taken longer than I thought.
+
+### Actions taken
+
+- Prioritize the errands at the beginning of the day.
+
+### Smart goal for the next day
+
+- Start setting up the Models and Schemas
+
+### Personal reflection
+
+- What went well today was I finally got the database connection working.
+- What didn't go well was getting distracted by errands that were out of my control.
+- What I can improve next time is schedule in the errands in my day and also the other stuff.
+
+[Go back to Table of Contents](#toc)
+
+## 21 Daily Status report 14/11/2022<a name="21daily"></a>
+
+### Date
+
+15 November 2022
+
+### What I completed today
+
+- I completed the task of setting up the Models and the Schema for the database.
+- I completed the task of implementing the APIs routes and CRUD features.
+- I completed the task of testing all the API calls in postman.
+
+### Any issues preventing you from progressing
+
+- I had a few bugs to catch which were mostly syntax errors.
+
+### Actions taken
+
+- I took my time to look over my code and check my naming conventions and checking my APIs in postman.
+
+### Smart goal for the next day
+
+- Start setting up the controllers
+
+### Personal reflection
+
+- What went well today was I finally got the database connection working.
+- What didn't go well was getting distracted by errands that were out of my control.
+- What I can improve next time is schedule in the errands in my day and also the other stuff.
 
 [Go back to Table of Contents](#toc)
