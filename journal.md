@@ -5,6 +5,7 @@
 ## Individual Reflective Journal
 
 1. [Reflective Journal for Project Proposal](#01proposal)
+2. [First Sprint](#1stSprint)
 
 ## Meetings
 
@@ -18,6 +19,7 @@
 8. [Team Meeting 04 Nov 2022](#08meeting)
 9. [Team Meeting 09 Nov 2022](#09meeting)
 10. [Team Meeting 11 Nov 2022](#10meeting)
+11. [Team Meeting 16 Nov 2022](#11meeting)
 
 ## Daily Status reports
 
@@ -41,7 +43,8 @@
 18. [Daily Status report 10 Nov 2022](#18daily)
 19. [Daily Status report 11 Nov 2022](#19daily)
 20. [Daily Status report 14 Nov 2022](#20daily)
-21. [Daily Status report 14 Nov 2022](#21daily)
+21. [Daily Status report 15 Nov 2022](#21daily)
+22. [Daily Status report 16 Nov 2022](#22daily)
 
 ## <mark>01 Team Meeting 12/10/2022</mark><a name="01meeting"></a>
 
@@ -928,6 +931,54 @@ The solution for the issue was to create awareness and to prevent unsafe baby du
 
 [Go back to Table of Contents](#toc)
 
+## First Sprint<a name="1stSprint"></a>
+
+### 1. A reflection on the development process for each sprint:
+
+**What was the most valuable lesson learnt this sprint:**
+
+The most valuable lesson learnt this sprint was getting to know each team members strengths and weaknesses. Each team member wanted to work on a part of the development that they wanted to improve on. For Two team members they wanted to improve their styling with TailwindCSS, ReactJS. Another team member was keen on working with forms for the signup and login pages. For myself it was working with NodeJS, ExpressJS and Mongoose on the backend.
+
+**What were the frustrations?**
+
+The frustrations this sprint was github. After cloning the repo of the software project I kept getting errors when installing the dependencies. I had to delete the local versions of the project a couple of times, re-clone the repo before I could get it to run. Another frustration was the database connection to MongoDB Atlas was not connecting. I was really stuck on the task for quite a while but managed to get it working.
+
+### 2. A summary of your personal contributions:
+
+**Your team role:**
+
+My team role ...
+
+**The tasks you completed:**
+
+The tasks I completed was ...
+
+### 3. One implementation commentary:
+
+**Explain one implementation feature you contributed to. Include evidence of your contribution:**
+
+The feature that I contributed to was the ...
+
+### 4. One testing commentary:
+
+**Explain one test session I performed, and include the test plan, test results and bugs found:**
+
+One test session I performed was end to end points for the APIs.
+
+### 5. One testing commentary:
+
+**What went well:**
+
+What went well was ...
+
+**What issues were met and how they were resolved:**
+
+What issues were met were ...
+
+How they were resolved ...
+
+[Go back to Table of Contents](#toc)
+
 ## 15 Daily Status report 07/11/2022<a name="15daily"></a>
 
 ### Date
@@ -1226,5 +1277,87 @@ Team meeting:
 - What went well today was I finally got the database connection working.
 - What didn't go well was getting distracted by errands that were out of my control.
 - What I can improve next time is schedule in the errands in my day and also the other stuff.
+
+[Go back to Table of Contents](#toc)
+
+## <mark>11 Team Meeting 16/11/2022</mark><a name="11meeting"></a>
+
+### Date
+
+16 November 2022
+
+### Start time
+
+1.00 pm
+
+### Attendance
+
+- Leone Krauze
+- Dwain Aiolupotea
+- John Wright
+- Brayden Dawson
+
+### Absent
+
+- 0
+
+### Agenda
+
+Team meeting:
+
+- Standup
+
+### Notes from the Meeting
+
+Progress so far:
+
+- Leone has completed the forms for signing up, logging in and donating goods.
+- Dwain has completed work on the connecting the mongo database to the backend using an API and can make calls to create testimonials.
+- Brayden has finished work on the footer and background styling.
+- John has been working on the Nav bar but it is not yet responsive enough to merge in with the main project.
+
+GIT MERGE
+
+- Merged Leone's branch to main branch
+- Merged Brayden's branct to main branch
+
+TO DO for next meeing:
+
+- Dwain – work on authenticating users and getting them set up in the DB.
+- Leone – Work on the contact forms and if possible, start on some of the main content pages as well.
+- Brayden – Keep working on the main content pages, hero page styling etc.
+- John – Finish the Navbar.
+
+### Meeting ended
+
+- 2:33 pm
+
+## 22 Daily Status report 16/11/2022<a name="22daily"></a>
+
+### Date
+
+16 November 2022
+
+### What I completed today
+
+- I completed the task of
+
+### Any issues preventing you from progressing
+
+- I had a few bugs to catch which were mostly syntax errors.
+
+### Actions taken
+
+- I
+
+### Smart goal for the next day
+
+-
+
+### Personal reflection
+
+- What went well today
+- What didn't go well
+- What I can improve next time is
 
 [Go back to Table of Contents](#toc)
