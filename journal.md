@@ -48,6 +48,8 @@
 23. [Daily Status report 17 Nov 2022](#23daily)
 24. [Daily Status report 18 Nov 2022](#24daily)
 
+<hr>
+
 ## <mark>01 Team Meeting 12/10/2022</mark><a name="01meeting"></a>
 
 ### Date
