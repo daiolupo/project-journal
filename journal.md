@@ -1205,9 +1205,10 @@ My team role is Facilitator/Guardian of the Contract.
 
 The feature that I contributed to was implementing the APIs.
 
-After installing the dependencies for the backend, I created a file to set up the server. Added express, mongoose, and the routes. Then I set up the middleware, routes and the database connection. Then created an .env file for the mongo uri and the port number.
+After installing the dependencies for the backend, I created a file to set up the server. Added express, mongoose, and the routes. Then I set up the middleware, routes and the database connection. Then created an .env file for the mongo URI and the PORT number.
 
-server.js
+server/server.js
+
 ```
 require("dotenv").config();
 const express = require("express");
@@ -1243,6 +1244,171 @@ mongoose
   .catch((error) => {
     console.log(error);
   });
+```
+
+Then I created the models and Schemas using text, name, year and also add timestamps. Exported the models as well.
+
+server/models/contentModel.js
+```
+const mongoose = require("mongoose");
+
+const Schema = mongoose.Schema;
+
+const contentSchema = new Schema(
+  {
+    text: {
+      type: String,
+      required: true,
+    },
+    name: {
+      type: String,
+      required: true,
+    },
+    year: {
+      type: String,
+      required: true
+    }
+  },
+  { timestamps: true }
+);
+
+module.exports = mongoose.model('Content', contentSchema)
+
+```
+
+After setting up the models I started working on the GET, POST, DELETE and UPDATE expressJS routes.
+
+server/routes/content.js
+```
+const express = require("express");
+const {
+  setContent,
+  getAllContent,
+  getContent,
+  deleteContent,
+  updateContent,
+} = require("../controllers/contentController");
+
+const router = express.Router();
+
+// GET all content
+router.get("/", getAllContent);
+
+// GET single content
+router.get("/:id", getContent);
+
+// POST new content
+router.post("/", setContent);
+
+// DELETE content
+router.delete("/:id", deleteContent);
+
+// UPDATE content
+router.patch("/:id", updateContent);
+
+module.exports = router;
+
+```
+
+To try and unclutter the routes file I created a controller file and set up the APIs routes.
+
+server/controllers/contentControllers.js
+
+```
+const Content = require("../models/contentModel");
+const mongoose = require("mongoose");
+
+// @desc    Get all content
+// @route   GET /api/content
+// @access  Private
+const getAllContent = async (req, res) => {
+  const contents = await Content.find({}).sort({ createdAt: -1 });
+
+  res.status(200).json(contents);
+};
+
+// @desc    Get single content
+// @route   GET /api/content/:id
+// @access  Private
+const getContent = async (req, res) => {
+  const { id } = req.params;
+
+  if (!mongoose.Types.ObjectId.isValid(id)) {
+    return res.status(404).json({ error: "Content does not exist!" });
+  }
+
+  const content = await Content.findById(id);
+
+  if (!content) {
+    return res.status(404).json({ error: "Content does not exist!" });
+  }
+
+  res.status(200).json(content);
+};
+
+// @desc    Set content
+// @route   POST /api/content
+// @access  Private
+const setContent = async (req, res) => {
+  const { text, name, year } = req.body;
+  // create data to the database
+  try {
+    const content = await Content.create({ text, name, year });
+    res.status(200).json(content);
+  } catch (error) {
+    res.status(400).json({ error: error.message });
+  }
+};
+
+// @desc    Delete content
+// @route   DELETE /api/content/:id
+// @access  Private
+const deleteContent = async (req, res) => {
+  const { id } = req.params;
+
+  if (!mongoose.Types.ObjectId.isValid(id)) {
+    return res.status(404).json({ error: "Content does not exist!" });
+  }
+
+  const content = await Content.findOneAndDelete({_id: id})
+
+  if (!content) {
+    return res.status(404).json({error: "Content does not exist!"})
+  }
+
+  res.status(200).json(content);
+};
+
+// @desc    Update content
+// @route   PATCH /api/content/:id
+// @access  Private
+const updateContent = async (req, res) => {
+  const { id } = req.params;
+
+  if (!mongoose.Types.ObjectId.isValid(id)) {
+    return res.status(404).json({ error: "Content does not exist!" });
+  }
+
+  const content = await Content.findOneAndUpdate({_id: id}, {
+    ...req.body
+  })
+
+  if (!content) {
+    return res.status(404).json({ error: "Content does not exist!" });
+  }
+
+  res.status(200).json(content)
+
+}
+
+module.exports = {
+  setContent,
+  getAllContent,
+  getContent,
+  deleteContent,
+  updateContent
+};
+
 ```
 
 ### 4. One testing commentary:
