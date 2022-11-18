@@ -1205,8 +1205,44 @@ My team role is Facilitator/Guardian of the Contract.
 
 The feature that I contributed to was implementing the APIs.
 
+After installing the dependencies for the backend, I created a file to set up the server. Added express, mongoose, and the routes. Then I set up the middleware, routes and the database connection. Then created an .env file for the mongo uri and the port number.
+
+server.js
 ```
-test fenced code block
+require("dotenv").config();
+const express = require("express");
+const mongoose = require("mongoose");
+const contentRoutes = require("./routes/content");
+
+// express app
+const app = express();
+
+// middleware
+app.use(express.json());
+
+app.use((req, res, next) => {
+  console.log(req.path, req.method);
+  next();
+});
+
+// routes
+app.use("/api/content", contentRoutes);
+
+// database connection
+mongoose
+  .connect(process.env.MONGO_URI)
+  .then(() => {
+    // listening for requests
+    app.listen(process.env.PORT, () => {
+      console.log(
+        "press ctrl + c to stop server | Database connected & listening on port",
+        process.env.PORT
+      );
+    });
+  })
+  .catch((error) => {
+    console.log(error);
+  });
 ```
 
 ### 4. One testing commentary:
