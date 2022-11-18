@@ -933,57 +933,6 @@ The solution for the issue was to create awareness and to prevent unsafe baby du
 
 [Go back to Table of Contents](#toc)
 
-## First Sprint<a name="1stSprint"></a>
-
-### 1. A reflection on the development process for each sprint:
-
-**What was the most valuable lesson learnt this sprint:**
-
-The most valuable lesson learnt this sprint was getting to know each team members strengths and weaknesses. Each team member wanted to work on a part of the development that they wanted to improve on. For Two team members they wanted to improve their styling with TailwindCSS, ReactJS. Another team member was keen on working with forms for the signup and login pages. For myself it was working with NodeJS, ExpressJS and Mongoose on the backend.
-
-**What were the frustrations?**
-
-The frustrations this sprint was github. After cloning the repo of the software project I kept getting errors when installing the dependencies. I had to delete the local versions of the project a couple of times, re-clone the repo before I could get it to run. Another frustration was the database connection to MongoDB Atlas was not connecting. I was really stuck on the task for quite a while but managed to get it working.
-
-### 2. A summary of your personal contributions:
-
-**Your team role:**
-
-My team role is the Facilitator/Guardian of the Contract.
-
-**The tasks you completed:**
-
-- The tasks I completed were setting up the backend server using expressJS.
-- Setting up the Express routes and API routes.
-- setting up MongoDB Atlas and Mongoose
-- Setting up the controllers.
-
-### 3. One implementation commentary:
-
-**Explain one implementation feature you contributed to. Include evidence of your contribution:**
-
-The feature that I contributed to was implementing the APIs.
-
-### 4. One testing commentary:
-
-**Explain one test session I performed, and include the test plan, test results and bugs found:**
-
-One test session I performed was end to end points for the APIs.
-
-### 5. One testing commentary:
-
-**What went well:**
-
-What went well was ...
-
-**What issues were met and how they were resolved:**
-
-What issues were met were ...
-
-How they were resolved ...
-
-[Go back to Table of Contents](#toc)
-
 ## 15 Daily Status report 07/11/2022<a name="15daily"></a>
 
 ### Date
@@ -1220,6 +1169,57 @@ Team meeting:
 - What went well today was never giving up focus.
 - What didn't go well was the connection to the database. I couldn't get it to work.
 - What I can improve next time is don't be afraid to ask for help.
+
+[Go back to Table of Contents](#toc)
+
+## First Sprint<a name="1stSprint"></a>
+
+### 1. A reflection on the development process for each sprint:
+
+**What was the most valuable lesson learnt this sprint:**
+
+The most valuable lesson learnt this sprint was getting to know each team members strengths and weaknesses. Each team member wanted to work on a part of the development that they wanted to improve on. For Two team members they wanted to improve their styling with TailwindCSS, ReactJS. Another team member was keen on working with forms for the signup and login pages. For myself it was working with NodeJS, ExpressJS and Mongoose on the backend.
+
+**What were the frustrations?**
+
+The frustrations this sprint was github. After cloning the repo of the software project I kept getting errors when installing the dependencies. I had to delete the local versions of the project a couple of times, re-clone the repo before I could get it to run. Another frustration was the database connection to MongoDB Atlas was not connecting. I was really stuck on the task for quite a while but managed to get it working.
+
+### 2. A summary of your personal contributions:
+
+**Your team role:**
+
+My team role is the Facilitator/Guardian of the Contract.
+
+**The tasks you completed:**
+
+- The tasks I completed were setting up the backend server using expressJS.
+- Setting up the Express routes and API routes.
+- setting up MongoDB Atlas and Mongoose
+- Setting up the controllers.
+
+### 3. One implementation commentary:
+
+**Explain one implementation feature you contributed to. Include evidence of your contribution:**
+
+The feature that I contributed to was implementing the APIs.
+
+### 4. One testing commentary:
+
+**Explain one test session I performed, and include the test plan, test results and bugs found:**
+
+One test session I performed was end to end points for the APIs.
+
+### 5. One testing commentary:
+
+**What went well:**
+
+What went well was ...
+
+**What issues were met and how they were resolved:**
+
+What issues were met were ...
+
+How they were resolved ...
 
 [Go back to Table of Contents](#toc)
 
