@@ -1204,7 +1204,10 @@ My team role is Facilitator/Guardian of the Contract.
 **Explain one implementation feature you contributed to. Include evidence of your contribution:**
 
 The feature that I contributed to was implementing the APIs.
-<img src="img/01-GET-postman-test-getallcontent.jpg" width="900">
+
+```
+test fenced code block
+```
 
 ### 4. One testing commentary:
 
