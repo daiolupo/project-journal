@@ -1190,7 +1190,7 @@ The frustrations this sprint was github. After cloning the repo of the software 
 
 **Your team role:**
 
-My team role is the Facilitator/Guardian of the Contract.
+My team role is Facilitator/Guardian of the Contract.
 
 **The tasks you completed:**
 
@@ -1204,6 +1204,7 @@ My team role is the Facilitator/Guardian of the Contract.
 **Explain one implementation feature you contributed to. Include evidence of your contribution:**
 
 The feature that I contributed to was implementing the APIs.
+<img src="img/01-GET-postman-test-getallcontent.jpg" width="900">
 
 ### 4. One testing commentary:
 
