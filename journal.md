@@ -7,7 +7,7 @@
 1. [Reflective Journal for Project Proposal](#01proposal)
 2. [First Sprint](#1stSprint)
 
-## Meetings
+## Team Meetings
 
 1. [Team Meeting 12 Oct 2022](#01meeting)
 2. [Team Meeting 18 Oct 2022](#02meeting)
@@ -45,6 +45,8 @@
 20. [Daily Status report 14 Nov 2022](#20daily)
 21. [Daily Status report 15 Nov 2022](#21daily)
 22. [Daily Status report 16 Nov 2022](#22daily)
+23. [Daily Status report 17 Nov 2022](#23daily)
+24. [Daily Status report 18 Nov 2022](#24daily)
 
 ## <mark>01 Team Meeting 12/10/2022</mark><a name="01meeting"></a>
 
@@ -947,17 +949,20 @@ The frustrations this sprint was github. After cloning the repo of the software 
 
 **Your team role:**
 
-My team role ...
+My team role is the Facilitator/Guardian of the Contract.
 
 **The tasks you completed:**
 
-The tasks I completed was ...
+- The tasks I completed were setting up the backend server using expressJS.
+- Setting up the Express routes and API routes.
+- setting up MongoDB Atlas and Mongoose
+- Setting up the controllers.
 
 ### 3. One implementation commentary:
 
 **Explain one implementation feature you contributed to. Include evidence of your contribution:**
 
-The feature that I contributed to was the ...
+The feature that I contributed to was implementing the APIs.
 
 ### 4. One testing commentary:
 
@@ -1340,24 +1345,87 @@ TO DO for next meeing:
 
 ### What I completed today
 
-- I completed the task of
+- I completed the task of cleaning up my code by creating a controller file.
 
 ### Any issues preventing you from progressing
 
-- I had a few bugs to catch which were mostly syntax errors.
+- I had family come over to visit, so I was pretty occupied with hosting my cousins.
 
 ### Actions taken
 
-- I
+- I had to wait till the cousins went to sleep for me to continue working on the project.
 
 ### Smart goal for the next day
 
--
+- Finish off the controllers.
 
 ### Personal reflection
 
-- What went well today
-- What didn't go well
-- What I can improve next time is
+- What went well today was having a controller in the project really helps to keep things separate.
+- What didn't go well was having the routes file get really complex so having a controller was a lot better.
+- What I can improve next time is think about the separation of concerns in my code. As it really helps make the code easy to read and understand.
+
+[Go back to Table of Contents](#toc)
+
+## 23 Daily Status report 17/11/2022<a name="23daily"></a>
+
+### Date
+
+17 November 2022
+
+### What I completed today
+
+- I completed the task of completing the controllers.
+
+### Any issues preventing you from progressing
+
+- I had a GET response error on one of APIs.
+- I haven't been pushing the changes as often as I would have liked.
+
+### Actions taken
+
+- Tried to fix the bug but it didn't really affect the running of the program.
+- I did some tests in postman and all the APIs worked.
+- I need to do commits to changes as I go and push them to the repo.
+
+### Smart goal for the next day
+
+- Test and run the APIs again tomorrow and push the changes to the repo and merge the changes.
+
+### Personal reflection
+
+- What went well today was getting the controllers working and learning some JavaScript as well.
+- What didn't go well was having a bug that took a while to fix.
+- What I can improve next time is ask for help and get some peer programming sessions with the team.
+
+[Go back to Table of Contents](#toc)
+
+## 24 Daily Status report 18/11/2022<a name="24daily"></a>
+
+### Date
+
+18 November 2022
+
+### What I completed today
+
+- I completed the task of merging my branch to the main.
+
+### Any issues preventing you from progressing
+
+- I had no issues with merging my changes to the main repo on GitHub.
+
+### Actions taken
+
+- No actions taken but I will need to do more commits and push my changes regularly.
+
+### Smart goal for the next day
+
+- Begin working on the Authorisation/Authentication JWT features of the project.
+
+### Personal reflection
+
+- What went well today was getting merging the changes to the main repo on github with any conflicts. I also got a lot help on merging the changes with the help of the more experience team members.
+- What didn't go well was not doing enough commits and merging my changes to the remote main branch.
+- What I can improve next time is make sure I do more commits and push the changes to the repo more often.
 
 [Go back to Table of Contents](#toc)
