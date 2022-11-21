@@ -1445,7 +1445,7 @@ Features to be tested include the following:
 
 **Features not to be tested**
 
-Only GET, DELETE, POST, PATCH http requests to the backend will be tested.
+Only GET and POST http requests to the backend will be tested.
 
 **Discussion of testing approach**
 
