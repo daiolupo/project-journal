@@ -1419,7 +1419,7 @@ API TESTS IN POSTMAN SOFTWARE
 
 I performed route tests in Postman software from a MongoDB Atlas database set up for the Software Project Ruach Elohim Foundation. This is one request for the GET request of all content.
 
-<img src="img/01-GET-postman-test-getallcontent.jpg" width="900">
+<img src="img/01-GET-postman-test-getallcontent.jpg" width="930">
 
 ### 4. One testing commentary:
 
