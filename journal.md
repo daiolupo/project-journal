@@ -1796,7 +1796,7 @@ My team role is Spokes person.
 
 The feature that I contributed to was completing the implementation of the APIs and CRUD operations.
 
-TESTING API calls in Postman software.
+TESTING API CALLS IN POSTMAN SOFTWARE
 
 Now I started to work on the other API calls to the MongoDB Atlas database.
 
