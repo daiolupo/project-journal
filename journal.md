@@ -2123,6 +2123,8 @@ The issues I met was
 
 How was the issue resolved?
 
+[Go back to Table of Contents](#toc)
+
 ## 25 Daily Status report 21/11/2022<a name="25daily"></a>
 
 ### Date
@@ -2131,24 +2133,24 @@ How was the issue resolved?
 
 ### What I completed today
 
-- I completed the task .
+- I completed first sprint documentation.
 
 ### Any issues preventing you from progressing
 
-- I had .
+- I had issues from progressing because of some distractions outside of my control.
 
 ### Actions taken
 
-- Actions taken .
+- Actions taken were to shift work to a later time.
 
 ### Smart goal for the next day
 
-- Begin working .
+- Finish the second sprint documentation.
 
 ### Personal reflection
 
-- What went well today was
-- What didn't go well was .
-- What I can improve next time is .
+- What went well today was finishing the first sprint documentation
+- What didn't go well was a few distractions when I was working.
+- What I can improve next time is when interrupts happen just schedule my work for a later time.
 
 [Go back to Table of Contents](#toc)
