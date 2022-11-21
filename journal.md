@@ -1447,23 +1447,52 @@ Only GET, DELETE http requests to the backend will be tested.
 **Discussion of testing approach**
 
 The tests will be conducted by a team of developers but I will perform one test session.
-The tester will conduct End-to-end points and will write Pass/Fail for each case. 
+The tester will conduct End-to-end points and will write Pass/Fail for each case.
 For each case the tester will also write the results of each test case.
 The tester will debug the code and run the tests again and will refactor the code.
 On completion of the tests a report will be produced.
 
 **Source Code**
 
-server/content.js
+server/routes/content.js
 
 ```
+const express = require("express");
+const {
+  setContent,
+  getAllContent,
+  getContent,
+  deleteContent,
+  updateContent,
+} = require("../controllers/contentController");
+
+const router = express.Router();
+
+// GET all content
+router.get("/", getAllContent);
+
+// GET single content
+router.get("/:id", getContent);
+
+// POST new content
+router.post("/", setContent);
+
+// DELETE content
+router.delete("/:id", deleteContent);
+
+// UPDATE content
+router.patch("/:id", updateContent);
+
+module.exports = router;
+
 ```
 
 **TEST CASES**
 
-| ID        | Test Case Objective | Requisite | Steps | Input | Result | Expected | Status |
-| --------- | ------------------- | --------- | ----- | ----- | ------ | -------- | ------ |
-| 1         | Test article GET request | Run GET http request | 1. Open Postman
+| ID  | Test Case Objective      | Requisite            | Steps                | Input    | Result      | Expected    | Status |
+| --- | ------------------------ | -------------------- | -------------------- | -------- | ----------- | ----------- | ------ |
+| 1   | Test article GET request | Run GET http request | 1. Open Postman      | /content | All content | All content | Pass   |
+|     |                          |                      | 2. Type URI endpoint |
 
 ### 5. One testing commentary:
 
