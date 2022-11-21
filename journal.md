@@ -1423,11 +1423,11 @@ I performed route tests requests to MongoDB Atlas database in Postman software s
 
 GET request for a single content by id.
 
-<img src="img/02-GET-postman-test-getSinglecontent.jpg" width="930">
+<img src="img/02-GET-postman-test-getSingleContent.jpg" width="930">
 
 POST request to create a single content
 
-<img src="img/03-POST-postman-test-postSinglecontent.jpg" width="930">
+<img src="img/03-POST-postman-test-postSingleContent.jpg" width="930">
 
 ### 4. One testing commentary:
 
