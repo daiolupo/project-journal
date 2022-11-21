@@ -1249,6 +1249,7 @@ mongoose
 Then I created the models and Schemas using text, name, year and also add timestamps. Exported the models as well.
 
 server/models/contentModel.js
+
 ```
 const mongoose = require("mongoose");
 
@@ -1279,6 +1280,7 @@ module.exports = mongoose.model('Content', contentSchema)
 After setting up the models I started working on the GET, POST, DELETE and UPDATE expressJS routes.
 
 server/routes/content.js
+
 ```
 const express = require("express");
 const {
@@ -1416,6 +1418,52 @@ module.exports = {
 **Explain one test session I performed, and include the test plan, test results and bugs found:**
 
 One test session I performed was end to end points for the APIs.
+
+**TEST PLAN**
+
+**Endpoint Testing**
+
+server/content.js
+
+**Test Environment**
+
+Microsoft Windows 11
+
+**Testing items**
+
+These items will be tested using Endpoint testing in the Postman software to test API requests to the server.
+
+**Features to be tested**
+
+Features to be tested include the following:
+
+1. As a developer/tester, test the route GET requests all content.
+2. As a developer/tester, test the routes GET request status code equals to 200
+
+**Features not to be tested**
+
+Only GET, DELETE http requests to the backend will be tested.
+
+**Discussion of testing approach**
+
+The tests will be conducted by a team of developers but I will perform one test session.
+The tester will conduct End-to-end points and will write Pass/Fail for each case. 
+For each case the tester will also write the results of each test case.
+The tester will debug the code and run the tests again and will refactor the code.
+On completion of the tests a report will be produced.
+
+**Source Code**
+
+server/content.js
+
+```
+```
+
+**TEST CASES**
+
+| ID        | Test Case Objective | Requisite | Steps | Input | Result | Expected | Status |
+| --------- | ------------------- | --------- | ----- | ----- | ------ | -------- | ------ |
+| 1         | Test article GET request | Run GET http request | 1. Open Postman
 
 ### 5. One testing commentary:
 
