@@ -1500,17 +1500,46 @@ module.exports = router;
 | 4   |  Test content POST request  | Run POST http request | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click POST</li><li>Click SEND</li></ol> | JSON data |         post data         |         post data         |  Pass  |
 | 5   |  Test content POST request  | Run POST http request | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click POST</li><li>Click SEND</li></ol> | JSON data |            200            |            200            |  Pass  |
 
+**REPORT**
+Test Summary Report
+
+SUMMARY
+
+All tests were conducted under the Microsoft Windows 11 environment using Postman Software. API End-to-end point testing was done on the back-end server. There were no failed tests results during the testing session for the GET and POST requests.
+
+Here are some of the tests that were run:
+
+1. Test the route GET request all content.
+2. Test the route GET request status code to equal 200.
+3. Test the route GET request for single content by id
+4. Test the route POST request for new content
+5. Test the route POST request status code to equal 200.
+
+Using Postman for performing the API end-to-end points was quick and easy for checking errors.
+
+SUMMARY RESULTS
+
+All the APIs end-to-end points have passed by returning the expected output. Except for incorrect input to return a status code of 404 were not tested in this session.
+
+EVALUATION
+
+The tests were very basic requests and response to the server. The only real concern is testing the front-end for invalid input or Input validation errors. How to check if we have insufficient validation of user-supplied input.
+
+SUMMARY OF ACTIVITES
+
+Performing API end-to-end points in Postman was very fast and easy and worked well for small scale apps. As the web application begins to scale in size the amount of time and cost will increase including increased time for a single tester.
+
 ### 5. One testing commentary:
 
 **What went well:**
 
-What went well was ...
+What went well was doing the API tests with Postman. Very fast and easy to use.
 
 **What issues were met and how they were resolved:**
 
-What issues were met were ...
+The issues I met was Postman would take a long time to boot up for the very first time. It took nearly five minutes for Postman to open and be used. Also the API requests would take a few minutes before returning results. Time is really important and if testing takes too long it affects the whole project deadline.
 
-How they were resolved ...
+How was the issue resolved? After the first initial boot up of Postman it booted up really quickly. I never had an issue with postman again. Because some API requests took a while to response, I decided to spread the load by splitting up the tests into two or three sprints. My plan was to code a few API requests and then test the first lot and then code more API requests and then test that lot. After all the APIs were finished I would test all of the APIs.
 
 [Go back to Table of Contents](#toc)
 
