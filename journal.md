@@ -1773,24 +1773,22 @@ TO DO for next meeing:
 
 **What was the most valuable lesson learnt this sprint:**
 
-The most valuable lesson learnt this sprint was
+The most valuable lesson learnt this sprint was making sure that I test APIs again. You never know what could happen as you keep updating the code base.
 
 **What were the frustrations?**
 
-The frustrations this sprint was
+The frustrations this sprint was time. It took many long hours to get things finished especially if your coding and testing at the same time. Switching back and forth from coding to testing takes a while to adjust yourself to the tasks. I wish I could just do one thing instead of doing two tasks at once. It would make life a bit easier for me if we had a tester to just focus on that.
 
 ### 2. A summary of your personal contributions:
 
 **Your team role:**
 
-My team role is
+My team role is Spokes person.
 
 **The tasks you completed:**
 
-- The tasks I completed were setting up the backend server using expressJS.
-- Setting up the Express routes and API routes.
-- setting up MongoDB Atlas and Mongoose
-- Setting up the controllers.
+- The tasks I completed was testing the update, delete features.
+- Implementing a pull request and merging the changes of the back-end to the main branch.
 
 ### 3. One implementation commentary:
 
@@ -1804,9 +1802,9 @@ Now I started to work on the other API calls to the MongoDB Atlas database.
 
 PATCH request to update a single content by id.
 
-<img src="img/04-POST-postman-test-updateSinglecontent.jpg" width="930">
+<img src="img/04-POST-postman-test-updateSingleContent.jpg" width="930">
 
-<img src="img/05-POST-postman-test-updateSinglecontent.jpg" width="930">
+<img src="img/05-POST-postman-test-updateSingleContent.jpg" width="930">
 
 A view of the MongoDB Atlas database with updated content.
 
@@ -1834,7 +1832,7 @@ Then merged all the changes into the main branch. I had no conflicts as I was th
 
 **Explain one test session I performed, and include the test plan, test results and bugs found:**
 
-One test session I performed was end to end points for the APIs.
+One test session I performed was end-to-end points for the GET, POST, DELETE and UPDATE(PATCH) API calls.
 
 **TEST PLAN**
 
