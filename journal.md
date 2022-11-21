@@ -1415,6 +1415,12 @@ module.exports = {
 
 ```
 
+API TESTS IN POSTMAN SOFTWARE
+
+I performed route tests in Postman software from a MongoDB Atlas database set up for the Software Project Ruach Elohim Foundation. This is one request for the GET request of all content.
+
+<img src="img/01-GET-postman-test-getallcontent.jpg" width="900">
+
 ### 4. One testing commentary:
 
 **Explain one test session I performed, and include the test plan, test results and bugs found:**
