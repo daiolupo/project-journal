@@ -1489,9 +1489,10 @@ module.exports = router;
 
 **TEST CASES**
 
-| ID  |   Test Case Objective    |      Requisite       | Steps                                                                                        |  Input   |   Result    |  Expected   | Status |
-| --- | :----------------------: | :------------------: | :------------------------------------------------------------------------------------------- | :------: | :---------: | :---------: | :----: |
-| 1   | Test article GET request | Run GET http request | <ol><li>Open Postman</li><li>Type URI endpint</li><li>Click GET</li><li>Click SEND</li></ol> | /content | All content | All content |  Pass  |
+| ID  |   Test Case Objective    |      Requisite       | Steps                                                                                        |  Input   |   Result    |   Expected   | Status |
+| --- | :----------------------: | :------------------: | :------------------------------------------------------------------------------------------- | :------: | :---------: | :----------: | :----: |
+| 1   | Test content GET request | Run GET http request | <ol><li>Open Postman</li><li>Type URI endpint</li><li>Click GET</li><li>Click SEND</li></ol> | /content | All content | All content  |  Pass  |
+| 2   | Test content GET request | Run GET http request | <ol><li>Open Postman</li><li>Type URI endpint</li><li>Click GET</li><li>Click SEND</li></ol> |   200    |     200     | Equal to 200 |  Pass  |
 
 ### 5. One testing commentary:
 
