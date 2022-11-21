@@ -1439,17 +1439,13 @@ Features to be tested include the following:
 
 1. As a developer/tester, test the route GET requests all content.
 2. As a developer/tester, test the routes GET request status code equals to 200
-3. As a developer/tester, test the route get request single content by id.
-4. As a developer/tester, test the route delete request content by id.
-5. As a developer/tester, test the route delete request status code equals to 200.
-6. As a developer/tester, test the route post request new content.
-7. As a developer/tester, test the route post request status code equals to 200.
-8. As a developer/tester, test the route post request new content without required category.
-9. As a developer/tester, test the route post request new content without required category status code equals to 404.
+3. As a developer/tester, test the route GET request single content by id.
+4. As a developer/tester, test the route POST request new content.
+5. As a developer/tester, test the route POST request status code equals to 200.
 
 **Features not to be tested**
 
-Only GET, DELETE http requests to the backend will be tested.
+Only GET, DELETE, POST, PATCH http requests to the backend will be tested.
 
 **Discussion of testing approach**
 
@@ -1496,10 +1492,13 @@ module.exports = router;
 
 **TEST CASES**
 
-| ID  |   Test Case Objective    |      Requisite       | Steps                                                                                        |  Input   |   Result    |   Expected   | Status |
-| --- | :----------------------: | :------------------: | :------------------------------------------------------------------------------------------- | :------: | :---------: | :----------: | :----: |
-| 1   | Test content GET request | Run GET http request | <ol><li>Open Postman</li><li>Type URI endpint</li><li>Click GET</li><li>Click SEND</li></ol> | /content | All content | All content  |  Pass  |
-| 2   | Test content GET request | Run GET http request | <ol><li>Open Postman</li><li>Type URI endpint</li><li>Click GET</li><li>Click SEND</li></ol> |   200    |     200     | Equal to 200 |  Pass  |
+| ID  |     Test Case Objective     |       Requisite       | Steps                                                                                         |   Input   |          Result           |         Expected          | Status |
+| --- | :-------------------------: | :-------------------: | :-------------------------------------------------------------------------------------------- | :-------: | :-----------------------: | :-----------------------: | :----: |
+| 1   |  Test content GET request   | Run GET http request  | <ol><li>Open Postman</li><li>Type URI endpint</li><li>Click GET</li><li>Click SEND</li></ol>  | /content  |        All content        |        All content        |  Pass  |
+| 2   |  Test content GET request   | Run GET http request  | <ol><li>Open Postman</li><li>Type URI endpint</li><li>Click GET</li><li>Click SEND</li></ol>  |    200    |            200            |       Equal to 200        |  Pass  |
+| 3   | Test content GET id request | Run GET http request  | <ol><li>Open Postman</li><li>Type URI endpint</li><li>Click GET</li><li>Click SEND</li></ol>  | /read/id  | single content with an id | single content with an id |  Pass  |
+| 4   |  Test content POST request  | Run POST http request | <ol><li>Open Postman</li><li>Type URI endpint</li><li>Click POST</li><li>Click SEND</li></ol> | JSON data |         post data         |         post data         |  Pass  |
+| 5   |  Test content POST request  | Run POST http request | <ol><li>Open Postman</li><li>Type URI endpint</li><li>Click POST</li><li>Click SEND</li></ol> | JSON data |            200            |            200            |  Pass  |
 
 ### 5. One testing commentary:
 
