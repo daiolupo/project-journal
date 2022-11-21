@@ -6,6 +6,7 @@
 
 1. [Reflective Journal for Project Proposal](#01proposal)
 2. [First Sprint](#1stSprint)
+3. [Second Sprint](#2ndSprint)
 
 ## Team Meetings
 
@@ -47,6 +48,7 @@
 22. [Daily Status report 16 Nov 2022](#22daily)
 23. [Daily Status report 17 Nov 2022](#23daily)
 24. [Daily Status report 18 Nov 2022](#24daily)
+25. [Daily Status report 21 Nov 2022](#25daily)
 
 <hr>
 
@@ -1747,5 +1749,405 @@ TO DO for next meeing:
 - What went well today was getting merging the changes to the main repo on github with any conflicts. I also got a lot help on merging the changes with the help of the more experience team members.
 - What didn't go well was not doing enough commits and merging my changes to the remote main branch.
 - What I can improve next time is make sure I do more commits and push the changes to the repo more often.
+
+[Go back to Table of Contents](#toc)
+
+## Second Sprint<a name="2ndSprint"></a>
+
+### 1. A reflection on the development process for each sprint:
+
+**What was the most valuable lesson learnt this sprint:**
+
+The most valuable lesson learnt this sprint was
+
+**What were the frustrations?**
+
+The frustrations this sprint was
+
+### 2. A summary of your personal contributions:
+
+**Your team role:**
+
+My team role is
+
+**The tasks you completed:**
+
+- The tasks I completed were setting up the backend server using expressJS.
+- Setting up the Express routes and API routes.
+- setting up MongoDB Atlas and Mongoose
+- Setting up the controllers.
+
+### 3. One implementation commentary:
+
+**Explain one implementation feature you contributed to. Include evidence of your contribution:**
+
+The feature that I contributed to was implementing the APIs.
+
+server/server.js
+
+```
+require("dotenv").config();
+const express = require("express");
+const mongoose = require("mongoose");
+const contentRoutes = require("./routes/content");
+
+// express app
+const app = express();
+
+// middleware
+app.use(express.json());
+
+app.use((req, res, next) => {
+  console.log(req.path, req.method);
+  next();
+});
+
+// routes
+app.use("/api/content", contentRoutes);
+
+// database connection
+mongoose
+  .connect(process.env.MONGO_URI)
+  .then(() => {
+    // listening for requests
+    app.listen(process.env.PORT, () => {
+      console.log(
+        "press ctrl + c to stop server | Database connected & listening on port",
+        process.env.PORT
+      );
+    });
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+```
+
+Then I created the models and Schemas using text, name, year and also add timestamps. Exported the models as well.
+
+server/models/contentModel.js
+
+```
+const mongoose = require("mongoose");
+
+const Schema = mongoose.Schema;
+
+const contentSchema = new Schema(
+  {
+    text: {
+      type: String,
+      required: true,
+    },
+    name: {
+      type: String,
+      required: true,
+    },
+    year: {
+      type: String,
+      required: true
+    }
+  },
+  { timestamps: true }
+);
+
+module.exports = mongoose.model('Content', contentSchema)
+
+```
+
+After setting up the models I started working on the GET, POST, DELETE and UPDATE expressJS routes.
+
+server/routes/content.js
+
+```
+const express = require("express");
+const {
+  setContent,
+  getAllContent,
+  getContent,
+  deleteContent,
+  updateContent,
+} = require("../controllers/contentController");
+
+const router = express.Router();
+
+// GET all content
+router.get("/", getAllContent);
+
+// GET single content
+router.get("/:id", getContent);
+
+// POST new content
+router.post("/", setContent);
+
+// DELETE content
+router.delete("/:id", deleteContent);
+
+// UPDATE content
+router.patch("/:id", updateContent);
+
+module.exports = router;
+
+```
+
+To try and unclutter the routes file I created a controller file and set up the APIs routes.
+
+server/controllers/contentControllers.js
+
+```
+const Content = require("../models/contentModel");
+const mongoose = require("mongoose");
+
+// @desc    Get all content
+// @route   GET /api/content
+// @access  Private
+const getAllContent = async (req, res) => {
+  const contents = await Content.find({}).sort({ createdAt: -1 });
+
+  res.status(200).json(contents);
+};
+
+// @desc    Get single content
+// @route   GET /api/content/:id
+// @access  Private
+const getContent = async (req, res) => {
+  const { id } = req.params;
+
+  if (!mongoose.Types.ObjectId.isValid(id)) {
+    return res.status(404).json({ error: "Content does not exist!" });
+  }
+
+  const content = await Content.findById(id);
+
+  if (!content) {
+    return res.status(404).json({ error: "Content does not exist!" });
+  }
+
+  res.status(200).json(content);
+};
+
+// @desc    Set content
+// @route   POST /api/content
+// @access  Private
+const setContent = async (req, res) => {
+  const { text, name, year } = req.body;
+  // create data to the database
+  try {
+    const content = await Content.create({ text, name, year });
+    res.status(200).json(content);
+  } catch (error) {
+    res.status(400).json({ error: error.message });
+  }
+};
+
+// @desc    Delete content
+// @route   DELETE /api/content/:id
+// @access  Private
+const deleteContent = async (req, res) => {
+  const { id } = req.params;
+
+  if (!mongoose.Types.ObjectId.isValid(id)) {
+    return res.status(404).json({ error: "Content does not exist!" });
+  }
+
+  const content = await Content.findOneAndDelete({_id: id})
+
+  if (!content) {
+    return res.status(404).json({error: "Content does not exist!"})
+  }
+
+  res.status(200).json(content);
+};
+
+// @desc    Update content
+// @route   PATCH /api/content/:id
+// @access  Private
+const updateContent = async (req, res) => {
+  const { id } = req.params;
+
+  if (!mongoose.Types.ObjectId.isValid(id)) {
+    return res.status(404).json({ error: "Content does not exist!" });
+  }
+
+  const content = await Content.findOneAndUpdate({_id: id}, {
+    ...req.body
+  })
+
+  if (!content) {
+    return res.status(404).json({ error: "Content does not exist!" });
+  }
+
+  res.status(200).json(content)
+
+}
+
+module.exports = {
+  setContent,
+  getAllContent,
+  getContent,
+  deleteContent,
+  updateContent
+};
+
+```
+
+### 4. One testing commentary:
+
+**Explain one test session I performed, and include the test plan, test results and bugs found:**
+
+One test session I performed was end to end points for the APIs.
+
+**TEST PLAN**
+
+**Endpoint Testing**
+
+server/content.js
+
+**Test Environment**
+
+Microsoft Windows 11
+
+**Testing items**
+
+These items will be tested using Endpoint testing in the Postman software to test API requests to the server.
+
+**Features to be tested**
+
+Features to be tested include the following:
+
+1. As a developer/tester, test the route GET requests status code 400.
+2. As a developer/tester, test the route GET requests status code 404.
+3. As a developer/tester, test the route POST requests status code 400.
+4. As a developer/tester, test the route POST requests status code 404.
+5. As a developer/tester, test the route PATCH requests single content by.
+6. As a developer/tester, test the routes PATCH request status code equals to 200
+7. As a developer/tester, test the routes PATCH request status code equals to 404
+8. As a developer/tester, test the route DELETE request single content by id.
+9. As a developer/tester, test the route DELETE request status code equals to 200.
+10. As a developer/tester, test the route DELETE request status code equals to 404.
+
+**Features not to be tested**
+
+Only GET, POST, PATCH and DELETE http requests to the Back-end will be tested. There will be no tests on the Front-end.
+
+**Discussion of testing approach**
+
+The tests will be conducted by a team of developers but I will perform one test session.
+The tester will conduct End-to-end points and will write Pass/Fail for each case.
+For each case the tester will also write the results of each test case.
+The tester will debug the code and run the tests again and will refactor the code.
+On completion of the tests a report will be produced.
+
+**Source Code**
+
+server/routes/content.js
+
+```
+const express = require("express");
+const {
+  setContent,
+  getAllContent,
+  getContent,
+  deleteContent,
+  updateContent,
+} = require("../controllers/contentController");
+
+const router = express.Router();
+
+// GET all content
+router.get("/", getAllContent);
+
+// GET single content
+router.get("/:id", getContent);
+
+// POST new content
+router.post("/", setContent);
+
+// DELETE content
+router.delete("/:id", deleteContent);
+
+// UPDATE content
+router.patch("/:id", updateContent);
+
+module.exports = router;
+
+```
+
+**TEST CASES**
+
+| ID  |     Test Case Objective     |       Requisite       | Steps                                                                                          |   Input   |          Result           |         Expected          | Status |
+| --- | :-------------------------: | :-------------------: | :--------------------------------------------------------------------------------------------- | :-------: | :-----------------------: | :-----------------------: | :----: |
+| 1   |  Test content GET request   | Run GET http request  | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click GET</li><li>Click SEND</li></ol>  | /content  |        All content        |        All content        |  Pass  |
+| 2   |  Test content GET request   | Run GET http request  | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click GET</li><li>Click SEND</li></ol>  |    200    |            200            |       Equal to 200        |  Pass  |
+| 3   | Test content GET id request | Run GET http request  | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click GET</li><li>Click SEND</li></ol>  | /read/id  | single content with an id | single content with an id |  Pass  |
+| 4   |  Test content POST request  | Run POST http request | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click POST</li><li>Click SEND</li></ol> | JSON data |         post data         |         post data         |  Pass  |
+| 5   |  Test content POST request  | Run POST http request | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click POST</li><li>Click SEND</li></ol> | JSON data |            200            |            200            |  Pass  |
+
+**REPORT**
+Test Summary Report
+
+SUMMARY
+
+All tests were conducted under the Microsoft Windows 11 environment using Postman Software. API End-to-end point testing was done on the back-end server. There were no failed tests results during the testing session for the GET and POST requests.
+
+Here are some of the tests that were run:
+
+1. Test the route .
+2. Test the route .
+3. Test the route
+4. Test the route
+5. Test the route .
+
+Using Postman for performing the API end-to-end points was quick and easy for checking errors.
+
+SUMMARY RESULTS
+
+Text summery results will go here.
+
+EVALUATION
+
+Text evaluation will go here.
+
+SUMMARY OF ACTIVITES
+
+Text summery of activities will go here.
+
+### 5. One testing commentary:
+
+**What went well:**
+
+What went well was .
+
+**What issues were met and how they were resolved:**
+
+The issues I met was
+
+How was the issue resolved?
+
+## 25 Daily Status report 21/11/2022<a name="25daily"></a>
+
+### Date
+
+21 November 2022
+
+### What I completed today
+
+- I completed the task .
+
+### Any issues preventing you from progressing
+
+- I had .
+
+### Actions taken
+
+- Actions taken .
+
+### Smart goal for the next day
+
+- Begin working .
+
+### Personal reflection
+
+- What went well today was
+- What didn't go well was .
+- What I can improve next time is .
 
 [Go back to Table of Contents](#toc)
