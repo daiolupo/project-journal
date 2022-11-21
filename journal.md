@@ -1417,9 +1417,17 @@ module.exports = {
 
 API TESTS IN POSTMAN SOFTWARE
 
-I performed route tests in Postman software from a MongoDB Atlas database set up for the Software Project Ruach Elohim Foundation. This is one request for the GET request of all content.
+I performed route tests requests to MongoDB Atlas database in Postman software set up for the Software Project Ruach Elohim Foundation. The following images are screen shots of all the API requests.
 
 <img src="img/01-GET-postman-test-getallcontent.jpg" width="930">
+
+GET request for a single content by id.
+
+<img src="img/02-GET-postman-test-getSinglecontent.jpg" width="930">
+
+POST request to create a single content
+
+<img src="img/03-POST-postman-test-postSinglecontent.jpg" width="930">
 
 ### 4. One testing commentary:
 
@@ -1995,6 +2003,38 @@ module.exports = {
 };
 
 ```
+
+TESTING APIs in Postman software.
+
+Now I started to work on the other API calls to the MongoDB Atlas database.
+
+PATCH request to update a single content by id.
+
+<img src="img/04-POST-postman-test-updateSinglecontent.jpg" width="930">
+
+<img src="img/05-POST-postman-test-updateSinglecontent.jpg" width="930">
+
+A view of the MongoDB Atlas database with updated content.
+
+<img src="img/06-UpdatedContent-MongoDB.jpg" width="930">
+
+DELETE request API to the MongoDB Atlas database with postman.
+
+<img src="img/07-DELETE-postman-test-deleteSingleContent.jpg" width="930">
+
+A view of the test object to be deleted.
+
+<img src="img/08-Test-ObjectToBeDeleted-MongoDB.jpg" width="930">
+
+The object deleted from the MongoDB Atlas database.
+
+<img src="img/09-ObjectDeleted-MongoDB.jpg" width="930">
+
+After all the APIs and CRUD operations were coded and tested. I committed all the changes and push it to the remote repo on GitHub.
+
+Then merged all the changes into the main branch. I had no conflicts as I was the only one working in the back-end. I also deleted my branch after the initial merge.
+
+<img src="img/git-merge-changes.jpg" width="930">
 
 ### 4. One testing commentary:
 
