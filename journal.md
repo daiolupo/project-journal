@@ -1439,6 +1439,13 @@ Features to be tested include the following:
 
 1. As a developer/tester, test the route GET requests all content.
 2. As a developer/tester, test the routes GET request status code equals to 200
+3. As a developer/tester, test the route get request single article by id.
+4. As a developer/tester, test the route delete request article by id.
+5. As a developer/tester, test the route delete request status code equals to 200.
+6. As a developer/tester, test the route post request new article.
+7. As a developer/tester, test the route post request status code equals to 200.
+8. As a developer/tester, test the route post request new article without required category.
+9. As a developer/tester, test the route post request new article without required category status code equals to 404.
 
 **Features not to be tested**
 
