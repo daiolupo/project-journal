@@ -1854,16 +1854,14 @@ These items will be tested using Endpoint testing in the Postman software to tes
 
 Features to be tested include the following:
 
-1. As a developer/tester, test the route GET requests status code 400.
-2. As a developer/tester, test the route GET requests status code 404.
-3. As a developer/tester, test the route POST requests status code 400.
-4. As a developer/tester, test the route POST requests status code 404.
-5. As a developer/tester, test the route PATCH requests single content by.
-6. As a developer/tester, test the routes PATCH request status code equals to 200
-7. As a developer/tester, test the routes PATCH request status code equals to 404
-8. As a developer/tester, test the route DELETE request single content by id.
-9. As a developer/tester, test the route DELETE request status code equals to 200.
-10. As a developer/tester, test the route DELETE request status code equals to 404.
+1. As a developer/tester, test the route POST requests status code 400.
+2. As a developer/tester, test the route POST requests status code 404.
+3. As a developer/tester, test the route PATCH requests single content by.
+4. As a developer/tester, test the routes PATCH request status code equals to 200
+5. As a developer/tester, test the routes PATCH request status code equals to 404
+6. As a developer/tester, test the route DELETE request single content by id.
+7. As a developer/tester, test the route DELETE request status code equals to 200.
+8. As a developer/tester, test the route DELETE request status code equals to 404.
 
 **Features not to be tested**
 
@@ -1914,13 +1912,10 @@ module.exports = router;
 
 **TEST CASES**
 
-| ID  |     Test Case Objective     |       Requisite       | Steps                                                                       |   Input   |          Result           |         Expected          | Status |
-| --- | :-------------------------: | :-------------------: | :-------------------------------------------------------------------------- | :-------: | :-----------------------: | :-----------------------: | :----: |
-| 1   |  Test content GET request   | Run GET http request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click GET<br/>4. Click SEND | /content  |        All content        |        All content        |  tbc   |
-| 2   |  Test content GET request   | Run GET http request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click GET<br/>4. Click SEND |    200    |            200            |       Equal to 200        |  tbc   |
-| 3   | Test content GET id request | Run GET http request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click GET<br/>4. Click SEND | /read/id  | single content with an id | single content with an id |  tbc   |
-| 4   |  Test content POST request  | Run POST http request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click GET<br/>4. Click SEND | JSON data |         post data         |         post data         |  tbc   |
-| 5   |  Test content POST request  | Run POST http request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click GET<br/>4. Click SEND | JSON data |            200            |            200            |  tbc   |
+| ID  |    Test Case Objective    |       Requisite       | Steps                                                                        | Input | Result | Expected | Status |
+| --- | :-----------------------: | :-------------------: | :--------------------------------------------------------------------------- | :---: | :----: | :------: | :----: |
+| 1   | Test content POST request | Run POST http request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND | JSON  |  400   |   400    |  tbc   |
+| 2   | Test content POST request | Run POST http request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND | JSON  |  404   |   404    |  tbc   |
 
 **REPORT**
 
