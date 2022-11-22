@@ -1912,10 +1912,14 @@ module.exports = router;
 
 **TEST CASES**
 
-| ID  |    Test Case Objective    |       Requisite       | Steps                                                                        | Input | Result | Expected | Status |
-| --- | :-----------------------: | :-------------------: | :--------------------------------------------------------------------------- | :---: | :----: | :------: | :----: |
-| 1   | Test content POST request | Run POST http request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND | JSON  |  400   |   400    |  tbc   |
-| 2   | Test content POST request | Run POST http request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND | JSON  |  404   |   404    |  tbc   |
+| ID  |        Test Case Objective        |        Requisite        | Steps                                                                          |    Input    |     Result      |    Expected     | Status |
+| --- | :-------------------------------: | :---------------------: | :----------------------------------------------------------------------------- | :---------: | :-------------: | :-------------: | :----: |
+| 1   |     Test content POST request     |  Run POST http request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   |    JSON     |       400       |       400       |  tbc   |
+| 2   |     Test content POST request     |  Run POST http request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   |    JSON     |       404       |       404       |  tbc   |
+| 3   | Test content UPDATE request by id | Run PATCH http request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click PATCH<br/>4. Click SEND  | /content/id | updated content | updated content |  tbc   |
+| 4   | Test content UPDATE request by id | Run PATCH http request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click PATCH<br/>4. Click SEND  | /content/id |       200       |       200       |  tbc   |
+| 5   | Test content UPDATE request by id | Run PATCH http request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click PATCH<br/>4. Click SEND  | /content/id |       404       |       404       |  tbc   |
+| 6   | Test content DELETE request by id | Run DELETE http request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click DELETE<br/>4. Click SEND | /content/id |       404       |       404       |  tbc   |
 
 **REPORT**
 
