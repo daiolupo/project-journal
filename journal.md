@@ -839,27 +839,27 @@ TEAM CONTRACT
 
 I worked on the Team Contract and set that up for the Team to sign.
 
-<img src="img/TeamContractEvidence.jpg" width="900">
+<img src="img/journal/TeamContractEvidence.jpg" width="900">
 
 WIREFRAMES
 
 Desktop
 
-<img src="img/Wireframes-desktop-finished.jpg" width="900">
+<img src="img/journal/Wireframes-desktop-finished.jpg" width="900">
 
 Mobile
 
-<img src="img/mobile-wireframes.jpg" width="900">
+<img src="img/journal/mobile-wireframes.jpg" width="900">
 
 Tablet
 
-<img src="img/tablet-wireframes.jpg" width="900">
+<img src="img/journal/tablet-wireframes.jpg" width="900">
 
 DATABASE
 
 I completed the task of setting up the MongoDB Atlas database for the software project web application.
 
-<img src="img/MongoDB-Atlas-database.jpg" width="900">
+<img src="img/journal/MongoDB-Atlas-database.jpg" width="900">
 
 ### 2. One design commentary:
 
@@ -871,32 +871,32 @@ WIREFRAMES
 
 I worked on some draft version of the landing page wireframes for the Ruach Elohim Foundation website in Photoshop. I sent the wireframes to the team for feedback and for modifications.
 
-<img src="img/Wireframes-photoshop.jpg" width="900">
+<img src="img/journal/Wireframes-photoshop.jpg" width="900">
 
 I modified the landing page draft wireframes by adding login or account link in the navigation bar.
 We decided to move all the designs from Photoshop to online app, Figma for collaboration and live feedback. As that was much easier for us as a team to comment and quickly get feedback on the UI/UX designs.
 
-<img src="img/Wireframes-transfer-to-figma.jpg" width="900">
+<img src="img/journal/Wireframes-transfer-to-figma.jpg" width="900">
 
 Completed the rest of the wireframes for desktop. Then after completing the desktop version I struggled to design the mobile versions. So I though of sketching the mobile versions as it was quicker and much easier to do than in Figma.
 
-<img src="img/Wireframes-desktop-finished.jpg" width="900">
+<img src="img/journal/Wireframes-desktop-finished.jpg" width="900">
 
 So I started sketching out the mobile design by using the desktop as a guide. It was much more difficult to do as there was very little space to work with.
 
-<img src="img/01-Wireframes-REF.jpg" width="900">
+<img src="img/journal/01-Wireframes-REF.jpg" width="900">
 
-<img src="img/02-Wireframes-REF.jpg" width="900">
+<img src="img/journal/02-Wireframes-REF.jpg" width="900">
 
 Creating the mobile versions of the wireframes took a lot longer than I thought. I found I had to extend the frame of the mobile down longer to accommodate the shift of the layout to a column structure. I also left out a lot of images as I know that on mobile images can eat up a lot of data.
 
 Completed mobile wireframes. I chose to use just black, white and gray to only focus on the design aspects and the UI/UX elements.
 
-<img src="img/mobile-wireframes.jpg" width="900">
+<img src="img/journal/mobile-wireframes.jpg" width="900">
 
 Now after completing the mobile wireframes, I got to designing the tablet wireframes. It was a lot easier as I had a fair idea of what the UI/UX will look like for a tablet as I was familiar with both desktop and mobile.
 
-<img src="img/tablet-wireframes.jpg" width="900">
+<img src="img/journal/tablet-wireframes.jpg" width="900">
 
 ### 3. A Reflection on the Teamwork:
 
@@ -1420,15 +1420,15 @@ API TESTS IN POSTMAN SOFTWARE
 
 I performed route tests requests to MongoDB Atlas database in Postman software set up for the Software Project Ruach Elohim Foundation. The following images are screen shots of all the API requests.
 
-<img src="img/01-GET-postman-test-getallcontent.jpg" width="930">
+<img src="img/firstSprint/01-GET-postman-test-getallcontent.jpg" width="930">
 
 GET request for a single content by id.
 
-<img src="img/02-GET-postman-test-getSingleContent.jpg" width="930">
+<img src="img/firstSprint/02-GET-postman-test-getSingleContent.jpg" width="930">
 
 POST request to create a single content
 
-<img src="img/03-POST-postman-test-postSingleContent.jpg" width="930">
+<img src="img/firstSprint/03-POST-postman-test-postSingleContent.jpg" width="930">
 
 ### 4. One testing commentary:
 
@@ -1805,31 +1805,31 @@ Now I started to work on the other API calls to the MongoDB Atlas database.
 
 PATCH request to update a single content by id.
 
-<img src="img/04-POST-postman-test-updateSingleContent.jpg" width="930">
+<img src="img/secondSprint/04-POST-postman-test-updateSingleContent.jpg" width="930">
 
-<img src="img/05-POST-postman-test-updateSingleContent.jpg" width="930">
+<img src="img/secondSprint/05-POST-postman-test-updateSingleContent.jpg" width="930">
 
 A view of the MongoDB Atlas database with updated content.
 
-<img src="img/06-UpdatedContent-MongoDB.jpg" width="930">
+<img src="img/secondSprint/06-UpdatedContent-MongoDB.jpg" width="930">
 
 DELETE request API to the MongoDB Atlas database with postman.
 
-<img src="img/07-DELETE-postman-test-deleteSingleContent.jpg" width="930">
+<img src="img/secondSprint/07-DELETE-postman-test-deleteSingleContent.jpg" width="930">
 
 A view of the test object to be deleted.
 
-<img src="img/08-Test-ObjectToBeDeleted-MongoDB.jpg" width="930">
+<img src="img/secondSprint/08-Test-ObjectToBeDeleted-MongoDB.jpg" width="930">
 
 The object deleted from the MongoDB Atlas database.
 
-<img src="img/09-ObjectDeleted-MongoDB.jpg" width="930">
+<img src="img/secondSprint/09-ObjectDeleted-MongoDB.jpg" width="930">
 
 After all the APIs and CRUD operations were coded and tested. I committed all the changes and push it to the remote repo on GitHub.
 
 Then merged all the changes into the main branch. I had no conflicts as I was the only one working in the back-end. I also deleted my branch after the initial merge.
 
-<img src="img/git-merge-changes.jpg" width="930">
+<img src="img/secondSprint/git-merge-changes.jpg" width="930">
 
 ### 4. One testing commentary:
 
@@ -2028,5 +2028,74 @@ How was the issue resolved? Once I did more tests to the database it did speed u
 - What went well today was getting all the postman tests for the APIs and the second sprint docs completed.
 - What didn't go well was the second sprint docs took a very long time to complete. More than I anticipated.
 - What I can improve next time is try to work on the sprint documentation early to avoid adding extra work on top of development.
+
+&#11014; [Go back to Table of Contents](#toc)
+
+## 27 Daily Status report 23/11/2022<a name="27daily"></a>
+
+### Date
+
+23 November 2022
+
+### What I completed today
+
+- I completed setting up code for the user login and signup in the backend.
+
+### Any issues preventing you from progressing
+
+- I still feel as though I needed to research more on how to implement the authorization/authentication JWT on the backend. So I spent a lot of time Googling for resources or tutorials to help me learn more about authorization/authentication JWT on the backend
+
+### Actions taken
+
+- Find more information about implementing Authentication/Authorization JWT on the backend.
+
+### Smart goal for the next day
+
+- Start testing the user API calls in Postman app.
+
+### Personal reflection
+
+- What went well today was getting setting up the user signup and login in the backend went well with out any issues.
+- What didn't go well was after implementing the user signup and login in the backend I didn't know where to go from there.
+- What I can improve next time is try to keep looking up documentation and keeping a record of learning things. It will be helpful in the future.
+
+&#11014; [Go back to Table of Contents](#toc)
+
+## <mark>12 Team Meeting 23/11/2022</mark><a name="12meeting"></a>
+
+### Date
+
+23 November 2022
+
+### Start time
+
+1.30 pm
+
+### Attendance
+
+- Leone Krauze
+- Dwain Aiolupotea
+- John Wright
+- Brayden Dawson
+
+### Absent
+
+- 0
+
+### Agenda
+
+Team meeting:
+
+- Standup
+
+### Notes from the Meeting
+
+Progress so far:
+
+-
+
+### Meeting ended
+
+- 00:00 pm
 
 &#11014; [Go back to Table of Contents](#toc)
