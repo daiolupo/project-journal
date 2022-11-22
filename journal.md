@@ -1916,11 +1916,11 @@ module.exports = router;
 
 | ID  |     Test Case Objective     |       Requisite       | Steps                                                                                          |   Input   |          Result           |         Expected          | Status |
 | --- | :-------------------------: | :-------------------: | :--------------------------------------------------------------------------------------------- | :-------: | :-----------------------: | :-----------------------: | :----: |
-| 1   |  Test content GET request   | Run GET http request  | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click GET</li><li>Click SEND</li></ol>  | /content  |        All content        |        All content        |  Pass  |
-| 2   |  Test content GET request   | Run GET http request  | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click GET</li><li>Click SEND</li></ol>  |    200    |            200            |       Equal to 200        |  Pass  |
-| 3   | Test content GET id request | Run GET http request  | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click GET</li><li>Click SEND</li></ol>  | /read/id  | single content with an id | single content with an id |  Pass  |
-| 4   |  Test content POST request  | Run POST http request | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click POST</li><li>Click SEND</li></ol> | JSON data |         post data         |         post data         |  Pass  |
-| 5   |  Test content POST request  | Run POST http request | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click POST</li><li>Click SEND</li></ol> | JSON data |            200            |            200            |  Pass  |
+| 1   |  Test content GET request   | Run GET http request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click GET<br/>Click SEND                       | /content  |        All content        |        All content        |  tbc   |
+| 2   |  Test content GET request   | Run GET http request  | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click GET</li><li>Click SEND</li></ol>  |    200    |            200            |       Equal to 200        |  tbc   |
+| 3   | Test content GET id request | Run GET http request  | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click GET</li><li>Click SEND</li></ol>  | /read/id  | single content with an id | single content with an id |  tbc   |
+| 4   |  Test content POST request  | Run POST http request | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click POST</li><li>Click SEND</li></ol> | JSON data |         post data         |         post data         |  tbc   |
+| 5   |  Test content POST request  | Run POST http request | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click POST</li><li>Click SEND</li></ol> | JSON data |            200            |            200            |  tbc   |
 
 **REPORT**
 
@@ -1993,5 +1993,35 @@ How was the issue resolved?
 - What went well today was finishing the first sprint documentation
 - What didn't go well was a few distractions when I was working.
 - What I can improve next time is when interrupts happen just schedule my work for a later time.
+
+&#11014; [Go back to Table of Contents](#toc)
+
+## 26 Daily Status report 21/11/2022<a name="26daily"></a>
+
+### Date
+
+26 November 2022
+
+### What I completed today
+
+- I completed second sprint documentation.
+
+### Any issues preventing you from progressing
+
+- I had issues preventing me from progressing were .
+
+### Actions taken
+
+- Actions taken were.
+
+### Smart goal for the next day
+
+- Smart goal for the next day is .
+
+### Personal reflection
+
+- What went well today was
+- What didn't go well was
+- What I can improve next time is
 
 &#11014; [Go back to Table of Contents](#toc)
