@@ -1914,13 +1914,13 @@ module.exports = router;
 
 **TEST CASES**
 
-| ID  |     Test Case Objective     |       Requisite       | Steps                                                                                          |   Input   |          Result           |         Expected          | Status |
-| --- | :-------------------------: | :-------------------: | :--------------------------------------------------------------------------------------------- | :-------: | :-----------------------: | :-----------------------: | :----: |
-| 1   |  Test content GET request   | Run GET http request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click GET<br/>Click SEND                       | /content  |        All content        |        All content        |  tbc   |
-| 2   |  Test content GET request   | Run GET http request  | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click GET</li><li>Click SEND</li></ol>  |    200    |            200            |       Equal to 200        |  tbc   |
-| 3   | Test content GET id request | Run GET http request  | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click GET</li><li>Click SEND</li></ol>  | /read/id  | single content with an id | single content with an id |  tbc   |
-| 4   |  Test content POST request  | Run POST http request | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click POST</li><li>Click SEND</li></ol> | JSON data |         post data         |         post data         |  tbc   |
-| 5   |  Test content POST request  | Run POST http request | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click POST</li><li>Click SEND</li></ol> | JSON data |            200            |            200            |  tbc   |
+| ID  |     Test Case Objective     |       Requisite       | Steps                                                                       |   Input   |          Result           |         Expected          | Status |
+| --- | :-------------------------: | :-------------------: | :-------------------------------------------------------------------------- | :-------: | :-----------------------: | :-----------------------: | :----: |
+| 1   |  Test content GET request   | Run GET http request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click GET<br/>4. Click SEND | /content  |        All content        |        All content        |  tbc   |
+| 2   |  Test content GET request   | Run GET http request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click GET<br/>4. Click SEND |    200    |            200            |       Equal to 200        |  tbc   |
+| 3   | Test content GET id request | Run GET http request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click GET<br/>4. Click SEND | /read/id  | single content with an id | single content with an id |  tbc   |
+| 4   |  Test content POST request  | Run POST http request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click GET<br/>4. Click SEND | JSON data |         post data         |         post data         |  tbc   |
+| 5   |  Test content POST request  | Run POST http request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click GET<br/>4. Click SEND | JSON data |            200            |            200            |  tbc   |
 
 **REPORT**
 
