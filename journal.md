@@ -1933,37 +1933,40 @@ All tests were conducted under the Microsoft Windows 11 environment using Postma
 
 Here are some of the tests that were run:
 
-1. Test the route .
-2. Test the route .
-3. Test the route
-4. Test the route
-5. Test the route .
+1. Test the route POST request status code to equal 400.
+2. Test the route POST request status code to equal 404.
+3. Test the route PATCH/UPDATE request for single content by id.
+4. Test the route PATCH/UPDATE request status code to equal 200.
+5. Test the route PATCH/UPDATE request status code to equal 404.
+6. Test the route DELETE request for single content by id.
+7. Test the route DELETE request status code to equal 200.
+8. Test the route DELETE request status code to equal 404.
 
-Using Postman for performing the API end-to-end points was quick and easy for checking errors.
+Using Postman for performing the API end-to-end points was a little slow at times especially the PATCH/UPDATE requests. A slight delay could be the result of the database being modified over the internet.
 
 SUMMARY RESULTS
 
-Text summery results will go here.
+Every single API requests all passed the end-to-end tests in Postman and there were no bugs found.
 
 EVALUATION
 
-Text evaluation will go here.
+All the test cases were done in postman and it ran well with no issues. The tests were very small in number and didn't even take very long to complete the task.
 
 SUMMARY OF ACTIVITES
 
-Text summery of activities will go here.
+Performing the tests for a single tester/developer is very easy for small apps. It might change when more features are added and the web apps scales in size.
 
 ### 5. One testing commentary:
 
 **What went well:**
 
-What went well was .
+What went well was the smooth and quick tests. It didn't take very long to finish all the API calls. All done in one session.
 
 **What issues were met and how they were resolved:**
 
-The issues I met was
+The issues I met was the POST and DELETE requests to the database did take a little bit of time to complete at the beginning.
 
-How was the issue resolved?
+How was the issue resolved? Once I did more tests to the database it did speed up a little but not much.
 
 &#11014; [Go back to Table of Contents](#toc)
 
@@ -1997,11 +2000,11 @@ How was the issue resolved?
 
 &#11014; [Go back to Table of Contents](#toc)
 
-## 26 Daily Status report 21/11/2022<a name="26daily"></a>
+## 26 Daily Status report 22/11/2022<a name="26daily"></a>
 
 ### Date
 
-26 November 2022
+22 November 2022
 
 ### What I completed today
 
@@ -2009,20 +2012,20 @@ How was the issue resolved?
 
 ### Any issues preventing you from progressing
 
-- I had issues preventing me from progressing were .
+- I couldn't finish the second sprint documentation fast enough to start implementing the Authentication/Authorization JWT code.
 
 ### Actions taken
 
-- Actions taken were.
+- To try and complete the sprint documentation as soon as possible to begin work on Authentication/Authorization JWT code.
 
 ### Smart goal for the next day
 
-- Smart goal for the next day is .
+- Authentication/Authorization JWT code completed.
 
 ### Personal reflection
 
-- What went well today was
-- What didn't go well was
-- What I can improve next time is
+- What went well today was getting all the postman tests for the APIs and the second sprint docs completed.
+- What didn't go well was the second sprint docs took a very long time to complete. More than I anticipated.
+- What I can improve next time is try to work on the sprint documentation early to avoid adding extra work on top of development.
 
 &#11014; [Go back to Table of Contents](#toc)
