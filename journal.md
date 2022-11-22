@@ -88,7 +88,7 @@
 
 10:16am
 
-&#8593; [Go back to Table of Contents](#toc)
+&#11014; [Go back to Table of Contents](#toc)
 
 ## 01 Daily Status report 17/10/2022<a name="01daily"></a>
 
