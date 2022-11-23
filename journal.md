@@ -21,6 +21,7 @@
 9. [Team Meeting 09 Nov 2022](#09meeting)
 10. [Team Meeting 11 Nov 2022](#10meeting)
 11. [Team Meeting 16 Nov 2022](#11meeting)
+12. [Team Meeting 23 Nov 2022](#12meeting)
 
 ## Daily Status reports
 
@@ -50,6 +51,7 @@
 24. [Daily Status report 18 Nov 2022](#24daily)
 25. [Daily Status report 21 Nov 2022](#25daily)
 26. [Daily Status report 22 Nov 2022](#26daily)
+27. [Daily Status report 23 Nov 2022](#27daily)
 
 <hr>
 
@@ -2092,10 +2094,13 @@ Team meeting:
 
 Progress so far:
 
--
+- John is working on testimonies page and using tailwind CSS to style them as cards. Also set up code for the database on the back-end.
+- Leone working on donate page using tailwind CSS. Donate button will link to the goFundMe page.
+- Brayden has finished home page and now working on the about page.
+- Dwain is working on authentication/authorization for the signup and login pages on the back-end.
 
 ### Meeting ended
 
-- 00:00 pm
+- 2:30 pm
 
 &#11014; [Go back to Table of Contents](#toc)
