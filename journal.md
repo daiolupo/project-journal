@@ -2104,3 +2104,33 @@ Progress so far:
 - 2:30 pm
 
 &#11014; [Go back to Table of Contents](#toc)
+
+## 28 Daily Status report 24/11/2022<a name="28daily"></a>
+
+### Date
+
+24 November 2022
+
+### What I completed today
+
+- I completed signing up and logging in users for just the back-end.
+
+### Any issues preventing you from progressing
+
+- I don't really know how to code the signup and login in the front-end.
+
+### Actions taken
+
+- I will need to get some help from the other team members for the signup and login for the front-end. I will also need to do my own research.
+
+### Smart goal for the next day
+
+- Do a test plan for the signing up and loggin in postman before moving to the front-end.
+
+### Personal reflection
+
+- What went well today was completing the signing up and logging in users for the back-end.
+- What didn't go well was syntax error bugs taking up a lot of time.
+- What I can improve next time is debugging code by reading and understanding error messages in the console and in the terminal.
+
+&#11014; [Go back to Table of Contents](#toc)
