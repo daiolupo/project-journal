@@ -7,6 +7,7 @@
 1. [Reflective Journal for Project Proposal](#01proposal)
 2. [First Sprint](#1stSprint)
 3. [Second Sprint](#2ndSprint)
+4. [Third Sprint](#3rdSprint)
 
 ## Team Meetings
 
@@ -2653,5 +2654,35 @@ Progress so far:
 - What went well today was completing the images for the testimonies.
 - What didn't go well was it took too long to get the images done.
 - What I can improve next time look for free images online instead of design images from scratch.
+
+&#11014; [Go back to Table of Contents](#toc)
+
+## 31 Daily Status report 29/11/2022<a name="31daily"></a>
+
+### Date
+
+29 November 2022
+
+### What I completed today
+
+- I completed .
+
+### Any issues preventing you from progressing
+
+- The issues I had today .
+
+### Actions taken
+
+- The actions I took .
+
+### Smart goal for the next day
+
+- The smart goal for the tomorrow is.
+
+### Personal reflection
+
+- What went well
+- What didn't go well was
+- What I can improve next time is
 
 &#11014; [Go back to Table of Contents](#toc)
