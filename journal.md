@@ -22,6 +22,7 @@
 10. [Team Meeting 11 Nov 2022](#10meeting)
 11. [Team Meeting 16 Nov 2022](#11meeting)
 12. [Team Meeting 23 Nov 2022](#12meeting)
+13. [Team Meeting 28 Nov 2022](#13meeting)
 
 ## Daily Status reports
 
@@ -52,6 +53,8 @@
 25. [Daily Status report 21 Nov 2022](#25daily)
 26. [Daily Status report 22 Nov 2022](#26daily)
 27. [Daily Status report 23 Nov 2022](#27daily)
+28. [Daily Status report 24 Nov 2022](#28daily)
+29. [Daily Status report 25 Nov 2022](#29daily)
 
 <hr>
 
@@ -2132,5 +2135,492 @@ Progress so far:
 - What went well today was completing the signing up and logging in users for the back-end.
 - What didn't go well was syntax error bugs taking up a lot of time.
 - What I can improve next time is debugging code by reading and understanding error messages in the console and in the terminal.
+
+&#11014; [Go back to Table of Contents](#toc)
+
+## 29 Daily Status report 25/11/2022<a name="29daily"></a>
+
+### Date
+
+25 November 2022
+
+### What I completed today
+
+- I completed a tutorial on how to ReactJS context and hooks.
+
+### Any issues preventing you from progressing
+
+- I had a hard time learning ReactJS.
+
+### Actions taken
+
+- I had to go the the ReactJS docs to look for state management.
+
+### Smart goal for the next day
+
+- Get the signup and login pages working in the frontend using reactjs context and hooks.
+
+### Personal reflection
+
+- What went well today was learning new ReactJS basics.
+- What didn't go well was the hours to learn ReactJS was very long and hard to do in short amount of time.
+- What I can improve next time is continue to learn new things and sacrifice a lot of time to learning and practicing.
+
+&#11014; [Go back to Table of Contents](#toc)
+
+## Third Sprint<a name="3rdSprint"></a>
+
+### 1. A reflection on the development process for each sprint:
+
+**What was the most valuable lesson learnt this sprint:**
+
+The most valuable lesson learnt this sprint was learning to read other team members code. Which made me believe that I have to learn how to make clean simple code so the whole team can understand it. Even though I'm still learning.
+
+**What were the frustrations?**
+
+The frustrations this sprint was time round was not knowing how to connect the backend to the frontend. I had a hard time learning about ReactJS state management.
+
+### 2. A summary of your personal contributions:
+
+**Your team role:**
+
+My team role is Recorder.
+
+**The tasks you completed:**
+
+- The tasks I completed was implementing the JSON Web Tokens to verify and generate JWTs.
+- Tested the JWT in postman and on the database.
+
+### 3. One implementation commentary:
+
+**Explain one implementation feature you contributed to. Include evidence of your contribution:**
+
+The feature that I contributed to was completing the implementation of the JSON Web tokens for login and signup pages.
+
+Make a User controller file implement the JWT tokens.
+
+```
+const User = require("../models/userModel");
+const jwt = require("jsonwebtoken");
+
+const makeToken = (_id) => {
+  return jwt.sign({ _id }, process.env.SECRET, { expiresIn: "2d" });
+};
+
+// User login
+const loginUser = async (req, res) => {
+  const { email, password } = req.body;
+  try {
+    const user = await User.login(email, password);
+    // make a token
+    const token = makeToken(user._id);
+    res.status(200).json({ email, token });
+  } catch (error) {
+    res.status(400).json({ error: error.message });
+  }
+};
+
+// User signup
+const signupUser = async (req, res) => {
+  const { email, password } = req.body;
+  try {
+    const user = await User.signup(email, password);
+    // make a token
+    const token = makeToken(user._id);
+    res.status(200).json({ email, token });
+  } catch (error) {
+    res.status(400).json({ error: error.message });
+  }
+};
+
+module.exports = { signupUser, loginUser };
+```
+
+Then create a user model.
+
+```
+
+const mongoose = require("mongoose");
+const bcrypt = require("bcrypt");
+const validator = require("validator");
+
+const Schema = mongoose.Schema;
+
+const userSchema = new Schema({
+  email: {
+    type: String,
+    required: true,
+    unique: true,
+  },
+  password: {
+    type: String,
+    required: true,
+  },
+});
+
+// static signup function/method
+userSchema.statics.signup = async function (email, password) {
+  // validate
+  if (!email || !password) {
+    throw Error("Please make sure all fields are filled in correctly");
+  }
+  if (!validator.isEmail(email)) {
+    throw Error("Invalid email address");
+  }
+  if (!validator.isStrongPassword(password)) {
+    throw Error("Password is not strong enough");
+  }
+
+  const exists = await this.findOne({ email });
+  if (exists) {
+    throw Error("Another user with this Email already exists");
+  }
+
+  const salt = await bcrypt.genSalt(10);
+  const hash = await bcrypt.hash(password, salt);
+  const user = await this.create({ email, password: hash });
+  return user;
+};
+
+// static login function/method
+userSchema.statics.login = async function (email, password) {
+  if (!email || !password) {
+    throw Error("Please make sure all fields are filled in correctly");
+  }
+
+  const user = await this.findOne({ email });
+
+  if (!user) {
+    throw Error("We didn't recognise this email");
+  }
+  const match = await bcrypt.compare(password, user.password);
+  if (!match) {
+    throw Error("Sorry, that password isn't right");
+  }
+  return user;
+};
+
+module.exports = mongoose.model("User", userSchema);
+
+
+```
+
+Create a User route
+
+```
+
+const express = require("express");
+
+// controller
+const { signupUser, loginUser } = require("../controllers/userController");
+
+const router = express.Router();
+
+// sign up
+router.post("/signup", signupUser);
+
+// login
+router.post("/login", loginUser);
+
+module.exports = router;
+```
+
+Add the route to the server
+
+```
+require("dotenv").config();
+const express = require("express");
+const mongoose = require("mongoose");
+const contentRoutes = require("./routes/content");
+const userRoutes = require("./routes/user");
+
+// express app
+const app = express();
+
+// middleware
+app.use(express.json());
+
+app.use((req, res, next) => {
+  console.log(req.path, req.method);
+  next();
+});
+
+// routes
+app.use("/api/content", contentRoutes);
+app.use("/api/user", userRoutes);
+
+// database connection
+mongoose
+  .connect(process.env.MONGO_URI)
+  .then(() => {
+    // listening for requests
+    app.listen(process.env.PORT, () => {
+      console.log(
+        "press ctrl + c to stop server | Database connected & listening on port",
+        process.env.PORT
+      );
+    });
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+
+```
+
+TESTING JWT IN POSTMAN SOFTWARE
+
+I started testing the login and signup calls and then testing the JWT.
+
+I did a POST test login with a test user first to test if the login is working.
+
+<img src="img/thirdSprint/01-postman-login-user-test.jpg" width="950">
+
+Sign up user
+
+<img src="img/thirdSprint/02-postman-signup-user-test.jpg" width="950">
+
+Sign up user with a hash password
+
+<img src="img/thirdSprint/03-postman-hashPassword-signup.jpg" width="950">
+
+Sign up user test with invalid input
+
+<img src="img/thirdSprint/04-postman-signup-test-invalid-input.jpg" width="950">
+
+Sign up user test with an empty input field
+
+<img src="img/thirdSprint/05-postman-signup-empty-input-fields.jpg" width="950">
+
+Sign up user test with an empty fields field error
+
+<img src="img/thirdSprint/06-postman-empty-fields-error-msg.jpg" width="950">
+
+Sign up user test with a missing password error
+
+<img src="img/thirdSprint/07-postman-missing-password-error-msg.jpg" width="950">
+
+Sign up user test with a weak password error message
+
+<img src="img/thirdSprint/08-postman-weak-password-error-msg.jpg" width="950">
+
+Sign up user test with a error message of email already in use.
+
+<img src="img/thirdSprint/09-postman-email-already-in-use-error-msg.jpg" width="950">
+
+POST method Sign up user test with a valid credentials test.
+
+<img src="img/thirdSprint/10-postman-valid-credentials-signup.jpg" width="950">
+
+POST method Sign up user test with JSON Web Token test.
+
+<img src="img/thirdSprint/11-postman-test-signup-jwt.jpg" width="950">
+
+POST method Sign up a new user test with JSON Web Token test.
+
+<img src="img/thirdSprint/12-postman-signup-user-jwt.jpg" width="950">
+
+Login test with no email.
+
+<img src="img/thirdSprint/13-postman-login-test-no-email.jpg" width="950">
+
+Login test with no password.
+
+<img src="img/thirdSprint/14-postman-login-no-password.jpg" width="950">
+
+Login test with invalid email.
+
+<img src="img/thirdSprint/15-postman-login-invalid-email.jpg" width="950">
+
+Login test with incorrect password.
+
+<img src="img/thirdSprint/16-postman-login-incorrect-password.jpg" width="950">
+
+Login test with a successful login.
+
+<img src="img/thirdSprint/17-postman-login-successfully.jpg" width="950">
+
+### 4. One testing commentary:
+
+**Explain one test session I performed, and include the test plan, test results and bugs found:**
+
+One test session I performed was end-to-end points for the POST API calls and JWT tokens passwords.
+
+**TEST PLAN**
+
+**Endpoint Testing**
+
+server/user.js
+
+**Test Environment**
+
+Microsoft Windows 11
+
+**Testing items**
+
+These items will be tested using Endpoint testing in the Postman software to test JWT tokens authentication signup and login API requests to the server.
+
+**Features to be tested**
+
+Features to be tested include the following:
+
+1. As a developer/tester, test the route POST request login user.
+2. As a developer/tester, test the route POST request login user status code equals to 200.
+3. As a developer/tester, test the route POST request signup user.
+4. As a developer/tester, test the route POST request signup user status code equals to 200.
+5. As a developer/tester, test the route POST request signup user hash password.
+6. As a developer/tester, test the route POST request signup user empty feilds.
+7. As a developer/tester, test the route POST request signup user empty feilds user status equals 400.
+8. As a developer/tester, test the route POST request signup user email only.
+9. As a developer/tester, test the route POST request signup user email only user status equals 400.
+10. As a developer/tester, test the route POST request signup user weak password.
+11. As a developer/tester, test the route POST request signup user weak password status equals 400.
+12. As a developer/tester, test the route POST request signup user email already exists.
+13. As a developer/tester, test the route POST request signup user email already exists status equals 400.
+
+**Features not to be tested**
+
+Only POST http requests to the Back-end will be tested. There will be no tests on the Front-end.
+
+**Discussion of testing approach**
+
+The tests will be conducted by a team of developers but I will perform one test session.
+The tester will conduct End-to-end points and will write Pass/Fail for each case.
+For each case the tester will also write the results of each test case.
+The tester will debug the code and run the tests again and will refactor the code.
+On completion of the tests a report will be produced.
+
+**Source Code**
+
+server/routes/user.js
+
+```
+const express = require("express");
+
+// controller
+const { signupUser, loginUser } = require("../controllers/userController");
+
+const router = express.Router();
+
+// sign up
+router.post("/signup", signupUser);
+
+// login
+router.post("/login", loginUser);
+
+module.exports = router;
+
+```
+
+**TEST CASES**
+
+| ID  |       Test Case Objective       |          Requisite           | Steps                                                                          |      Input      |        Result        |       Expected       | Status |
+| --- | :-----------------------------: | :--------------------------: | :----------------------------------------------------------------------------- | :-------------: | :------------------: | :------------------: | :----: |
+| 1   |  Test user POST login request   | Run POST http login request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   | email, password |        login         |        login         |  pass  |
+| 2   |  Test user POST login request   | Run POST http login request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   | email, password |         200          |         200          |  pass  |
+| 3   | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click PATCH<br/>4. Click SEND  | email, password |        signup        |        signup        |  pass  |
+| 4   | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   | email, password |         200          |         200          |  pass  |
+| 5   | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   | email, password |   password hashed    |   password hashed    |  pass  |
+| 6   | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   |  empty fields   |    error message     |    error message     |  pass  |
+| 7   | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   |  empty fields   |         400          |         400          |  pass  |
+| 8   | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   |   email only    |    error message     |    error message     |  pass  |
+| 9   | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   |   email only    |         400          |         400          |  pass  |
+| 10  | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   |  weak password  |    error message     |    error message     |  pass  |
+| 11  | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   |  weak password  |         400          |         400          |  pass  |
+| 12  | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click DELETE<br/>4. Click SEND | email, password | email already exists | email already exists |  pass  |
+| 13  | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   | email, password |         400          |         400          |  pass  |
+
+**REPORT**
+
+Test Summary Report
+
+SUMMARY
+
+All tests were conducted under the Microsoft Windows 11 environment using Postman application. API End-to-end point testing was done only on the back-end server and MongoDB Atlas database. There were no failed tests results during the testing session for POST login and signup requests.
+
+Here are some of the tests that were run:
+
+1. Test the route POST request login user.
+2. Test the route POST request login user status code to equal 200.
+3. Test the route POST request signup user.
+4. Test the route POST request signup user status code to equal 200.
+5. Test the route POST request signup user hash password.
+6. Test the route POST request signup user empty fields.
+7. Test the route POST request signup user empty fields status equals 400.
+8. Test the route POST request signup user email only.
+9. Test the route POST request signup user email only status equals 400.
+10. Test the route POST request signup user weak password.
+11. Test the route POST request signup user weak password status equals 400.
+12. Test the route POST request signup user email alread exists.
+13. Test the route POST request signup user email alread exists status equals 400.
+
+The Postman application was very quick and easy to run the API user login and signup tests. Test cases ran smooth with out any major problems.
+
+SUMMARY RESULTS
+
+All the APIs for the user signup and login passed the end-to-end point tests and no bugs present in the code.
+
+EVALUATION
+
+The test cases were performed with the Postman application and ran without issues. Tests were small and took only a couple of seconds to complete.
+
+SUMMARY OF ACTIVITES
+
+The tests on the signup and login were good and no real issues arose. The only concern are other bugs that we can't catch with these kinds of tests. May be perform unit tests might catch other bugs. Overall it went well.
+
+### 5. One testing commentary:
+
+**What went well:**
+
+What went well were the test cases never failed and ran fast in the windows 11 environment.
+
+**What issues were met and how they were resolved:**
+
+The issues I met was having too many number of test cases.
+
+How was the issue resolved? I just cut the test cases down to ones that I thought were important for the project.
+
+&#11014; [Go back to Table of Contents](#toc)
+
+## <mark>13 Team Meeting 28/11/2022</mark><a name="13meeting"></a>
+
+### Date
+
+28 November 2022
+
+### Start time
+
+1.30 pm
+
+### Attendance
+
+- Leone Krauze
+- Dwain Aiolupotea
+- John Wright
+- Brayden Dawson
+
+### Absent
+
+- 0
+
+### Agenda
+
+Team meeting:
+
+- Standup
+
+### Notes from the Meeting
+
+Progress so far:
+
+- John still working on testimonies page and merged to main. Just need the pictures.
+- Sort out title for the website.
+- Brayden will help Dwain with the backend connecting to the front end.
+- Leone finished Donating goods page
+- Dwain will do the images for the testimonies as generic style woman vector images.
+- Leone sent the video to the team file.
+
+### Meeting ended
+
+- 2:26 pm
 
 &#11014; [Go back to Table of Contents](#toc)
