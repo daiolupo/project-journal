@@ -55,6 +55,7 @@
 27. [Daily Status report 23 Nov 2022](#27daily)
 28. [Daily Status report 24 Nov 2022](#28daily)
 29. [Daily Status report 25 Nov 2022](#29daily)
+30. [Daily Status report 28 Nov 2022](#30daily)
 
 <hr>
 
@@ -2622,5 +2623,35 @@ Progress so far:
 ### Meeting ended
 
 - 2:26 pm
+
+&#11014; [Go back to Table of Contents](#toc)
+
+## 30 Daily Status report 28/11/2022<a name="30daily"></a>
+
+### Date
+
+28 November 2022
+
+### What I completed today
+
+- I completed designing the images for the testimonies.
+
+### Any issues preventing you from progressing
+
+- The issue I had today was designing the images of woman from scratch for the testimonies. It took about two hours.
+
+### Actions taken
+
+- I decided to only spend about two hours on design and finished it.
+
+### Smart goal for the next day
+
+- Complete the Authentication and authorisation on the backend.
+
+### Personal reflection
+
+- What went well today was completing the images for the testimonies.
+- What didn't go well was it took too long to get the images done.
+- What I can improve next time look for free images online instead of design images from scratch.
 
 &#11014; [Go back to Table of Contents](#toc)
