@@ -57,6 +57,7 @@
 28. [Daily Status report 24 Nov 2022](#28daily)
 29. [Daily Status report 25 Nov 2022](#29daily)
 30. [Daily Status report 28 Nov 2022](#30daily)
+31. [Daily Status report 29 Nov 2022](#31daily)
 
 <hr>
 
