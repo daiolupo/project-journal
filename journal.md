@@ -2665,23 +2665,83 @@ Progress so far:
 
 ### What I completed today
 
-- I completed .
+- I completed authenticating signing up and logging in users on the backend.
 
 ### Any issues preventing you from progressing
 
-- The issues I had today .
+- The issues I had today was a validation error bug.
 
 ### Actions taken
 
-- The actions I took .
+- The actions I took catch the validation bug and fix the code.
 
 ### Smart goal for the next day
 
-- The smart goal for the tomorrow is.
+- The smart goal for the tomorrow is complete authorization for users.
 
 ### Personal reflection
 
-- What went well
+- What went well was getting the authorisation done
+- What didn't go well was still trying to work out how to connect the back to the front-end.
+- What I can improve next time is to learn ReactJS to connect the back-end with the frontend. Also learn state management like Redux or ReactJS context and hooks.
+
+&#11014; [Go back to Table of Contents](#toc)
+
+## 30 Daily Status report 28/11/2022<a name="30daily"></a>
+
+### Date
+
+28 November 2022
+
+### What I completed today
+
+- I completed designing the images for the testimonies.
+
+### Any issues preventing you from progressing
+
+- The issue I had today was designing the images of woman from scratch for the testimonies. It took about two hours.
+
+### Actions taken
+
+- I decided to only spend about two hours on design and finished it.
+
+### Smart goal for the next day
+
+- Complete the Authentication and authorisation on the backend.
+
+### Personal reflection
+
+- What went well today was completing the images for the testimonies.
+- What didn't go well was it took too long to get the images done.
+- What I can improve next time look for free images online instead of design images from scratch.
+
+&#11014; [Go back to Table of Contents](#toc)
+
+## 32 Daily Status report 30/11/2022<a name="32daily"></a>
+
+### Date
+
+30 November 2022
+
+### What I completed today
+
+- I completed
+
+### Any issues preventing you from progressing
+
+- The issues I had today was.
+
+### Actions taken
+
+- The actions I took
+
+### Smart goal for the next day
+
+- The smart goal for the tomorrow is
+
+### Personal reflection
+
+- What went well was
 - What didn't go well was
 - What I can improve next time is
 
