@@ -2760,7 +2760,7 @@ Progress so far:
 
 ### Start time
 
-1.30 pm
+1.36 pm
 
 ### Attendance
 
@@ -2783,11 +2783,17 @@ Team meeting:
 
 Progress so far:
 
-- 1
-- 2
+- Leone wanted to start working on the presentation for the project and the team will record their voices as voice overs for the powerpoint slides.
+- John will work on signup, contact and donating goods forms to be responsive in tailwindCSS.
+- Brayden is working on the model for the video for the homepage. Decided to have a placeholder image instead of the video.
+- Dwain will merge the authentication/authorization for admin.
+- Brayden and Dwain will work on connecting backend authentication/authorization jwt to the frontend.
+- John will be working on CRUD for testimonies page.
+- Dwain will do a test document for the back-end.
+- Discussed how to reduce size of the video. Dwain will look into a online web app that shrinks files for videos. Leone also suggested to see if the video can be reduced as well.
 
 ### Meeting ended
 
-- 00:00 pm
+- 2:23 pm
 
 &#11014; [Go back to Table of Contents](#toc)
