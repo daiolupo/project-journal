@@ -58,6 +58,7 @@
 29. [Daily Status report 25 Nov 2022](#29daily)
 30. [Daily Status report 28 Nov 2022](#30daily)
 31. [Daily Status report 29 Nov 2022](#31daily)
+32. [Daily Status report 30 Nov 2022](#32daily)
 
 <hr>
 
@@ -2726,24 +2727,65 @@ Progress so far:
 
 ### What I completed today
 
-- I completed
+- I completed the authorization for the admin user.
 
 ### Any issues preventing you from progressing
 
-- The issues I had today was.
+- The issues I had today was forgetting to export the authorization function and it left me debugging for hours to figure out the mistake.
 
 ### Actions taken
 
-- The actions I took
+- The actions I took was checking my code for errors and read the error message to figure out the problem.
 
 ### Smart goal for the next day
 
-- The smart goal for the tomorrow is
+- The smart goal for the tomorrow is connect the backend login and signup to the front end
+- Also connect the verification and authorization of the users in the front-end from the backend.
 
 ### Personal reflection
 
-- What went well was
-- What didn't go well was
-- What I can improve next time is
+- What went well was getting the authorization completed and working.
+- What didn't go well was not figuring out how to implement user roles like admin and donation users.
+- What I can improve next time is read up documentation to learn how to implement new features.
+
+&#11014; [Go back to Table of Contents](#toc)
+
+## <mark>14 Team Meeting 30/11/2022</mark><a name="14meeting"></a>
+
+### Date
+
+30 November 2022
+
+### Start time
+
+1.30 pm
+
+### Attendance
+
+- Leone Krauze
+- Dwain Aiolupotea
+- John Wright
+- Brayden Dawson
+
+### Absent
+
+- 0
+
+### Agenda
+
+Team meeting:
+
+- Standup
+
+### Notes from the Meeting
+
+Progress so far:
+
+- 1
+- 2
+
+### Meeting ended
+
+- 00:00 pm
 
 &#11014; [Go back to Table of Contents](#toc)
