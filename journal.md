@@ -2728,6 +2728,7 @@ Progress so far:
 ### What I completed today
 
 - I completed the authorization for the admin user.
+- I also completed sending the images of mothers for the testimony page to the front-end developer.
 
 ### Any issues preventing you from progressing
 
