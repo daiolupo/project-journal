@@ -60,6 +60,7 @@
 30. [Daily Status report 28 Nov 2022](#30daily)
 31. [Daily Status report 29 Nov 2022](#31daily)
 32. [Daily Status report 30 Nov 2022](#32daily)
+33. [Daily Status report 01 Dec 2022](#33daily)
 
 <hr>
 
@@ -2795,5 +2796,35 @@ Progress so far:
 ### Meeting ended
 
 - 2:23 pm
+
+&#11014; [Go back to Table of Contents](#toc)
+
+## 33 Daily Status report 01/12/2022<a name="33daily"></a>
+
+### Date
+
+01 December 2022
+
+### What I completed today
+
+- I completed the authorization for the testimonies.
+
+### Any issues preventing you from progressing
+
+- The issues I had today was the testimonies page could only be accessed if you had a login. It was suppose to be made public. Only the admin can make POST, DELETE and UPDATE requests.
+
+### Actions taken
+
+- The actions I took was adjusting the code to allow anyone to get the data but only authorized users could modify if they were logged in.
+
+### Smart goal for the next day
+
+- The smart goal for the tomorrow is to connect the signup pages from the back-end to the frontend.
+
+### Personal reflection
+
+- What went well was getting the authorization updated.
+- What didn't go well was not trying to correct the problem of making the data available to the public and only allowing authorized users to modify the content.
+- What I can improve next time is testing authorization together with the front-end. It helps to check how the app runs on both ends of development.
 
 &#11014; [Go back to Table of Contents](#toc)
