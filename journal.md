@@ -63,7 +63,7 @@
 32. [Daily Status report 30 Nov 2022](#32daily)
 33. [Daily Status report 01 Dec 2022](#33daily)
 34. [Daily Status report 02 Dec 2022](#34daily)
-35. [Daily Status report 02 Dec 2022](#35daily)
+35. [Daily Status report 05 Dec 2022](#35daily)
 
 <hr>
 
@@ -2903,7 +2903,7 @@ Progress so far:
 
 &#11014; [Go back to Table of Contents](#toc)
 
-## 35 Daily Status report 02/12/2022<a name="35daily"></a>
+## 35 Daily Status report 05/12/2022<a name="35daily"></a>
 
 ### Date
 
