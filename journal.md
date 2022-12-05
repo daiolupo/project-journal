@@ -62,6 +62,8 @@
 31. [Daily Status report 29 Nov 2022](#31daily)
 32. [Daily Status report 30 Nov 2022](#32daily)
 33. [Daily Status report 01 Dec 2022](#33daily)
+34. [Daily Status report 02 Dec 2022](#34daily)
+35. [Daily Status report 02 Dec 2022](#35daily)
 
 <hr>
 
@@ -2692,7 +2694,7 @@ Progress so far:
 
 &#11014; [Go back to Table of Contents](#toc)
 
-## 30 Daily Status report 28/11/2022<a name="30daily"></a>
+## 32 Daily Status report 28/11/2022<a name="32daily"></a>
 
 ### Date
 
@@ -2722,7 +2724,7 @@ Progress so far:
 
 &#11014; [Go back to Table of Contents](#toc)
 
-## 32 Daily Status report 30/11/2022<a name="32daily"></a>
+## 33 Daily Status report 30/11/2022<a name="33daily"></a>
 
 ### Date
 
@@ -2800,7 +2802,7 @@ Progress so far:
 
 &#11014; [Go back to Table of Contents](#toc)
 
-## 33 Daily Status report 01/12/2022<a name="33daily"></a>
+## 34 Daily Status report 01/12/2022<a name="34daily"></a>
 
 ### Date
 
