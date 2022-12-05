@@ -25,6 +25,7 @@
 12. [Team Meeting 23 Nov 2022](#12meeting)
 13. [Team Meeting 28 Nov 2022](#13meeting)
 14. [Team Meeting 30 Nov 2022](#14meeting)
+15. [Team Meeting 05 Dec 2022](#15meeting)
 
 ## Daily Status reports
 
@@ -2826,5 +2827,107 @@ Progress so far:
 - What went well was getting the authorization updated.
 - What didn't go well was not trying to correct the problem of making the data available to the public and only allowing authorized users to modify the content.
 - What I can improve next time is testing authorization together with the front-end. It helps to check how the app runs on both ends of development.
+
+&#11014; [Go back to Table of Contents](#toc)
+
+## 34 Daily Status report 02/12/2022<a name="34daily"></a>
+
+### Date
+
+02 December 2022
+
+### What I completed today
+
+- I completed merging the changes to the remote repo.
+
+### Any issues preventing you from progressing
+
+- The issues I had today was connecting the signup and login pages from the back-end to the front.
+
+### Actions taken
+
+- The actions I took was looking over a previous project to get some help to connect the signup and login pages to the backend.
+
+### Smart goal for the next day
+
+- The smart goal for the tomorrow is complete the connection of the signup and login pages from the back-end to the frontend.
+
+### Personal reflection
+
+- What went well was having no conflicts during the merge and having a peer programming session for the first time with one of the team members.
+- What didn't go well was having a lot of trouble connect the login pages to the backend.
+- What I can improve next time is peer programming is really helpful when fixing bugs.
+
+&#11014; [Go back to Table of Contents](#toc)
+
+## <mark>15 Team Meeting 05/12/2022</mark><a name="15meeting"></a>
+
+### Date
+
+05 December 2022
+
+### Start time
+
+1.30 pm
+
+### Attendance
+
+- Leone Krauze
+- Dwain Aiolupotea
+- John Wright
+- Brayden Dawson
+
+### Absent
+
+- 0
+
+### Agenda
+
+Team meeting:
+
+- Standup
+
+### Notes from the Meeting
+
+Progress so far:
+
+- Leone working on presentation and team will do recording audio for the presentation
+- Discussed how browsers renders the web app differently where Brave doesn't submit but works in Chrome.
+- We did a two hour peer programming session with the team to sort out the login and jwt token and authorization.
+
+### Meeting ended
+
+- 3:32 pm
+
+&#11014; [Go back to Table of Contents](#toc)
+
+## 35 Daily Status report 02/12/2022<a name="35daily"></a>
+
+### Date
+
+05 December 2022
+
+### What I completed today
+
+- I completed the login authorization in the front-end and connected it to the backend.
+- I completed merging the changes to the remote repo.
+
+### Any issues preventing you from progressing
+
+- The issues I had today was the login errors. Something to do with react hooks and jwt.
+
+### Actions taken
+
+- The actions was we had a team peer programming session to sort out the login authorization for the front and back end.
+
+### Smart goal for the next day
+
+- The smart goal for the tomorrow is complete the CRUD authorization for the admin user to show edit, update and delete operations for the testimony pages.
+
+### Personal reflection
+
+- What went well was working with the team to get rid of bugs in the login feature through a teams call peer programming session.
+- What didn't go well was having to spend two hours trying to get the feature working.
+- What I can improve next time is have the change to learn from other team members problem solving skills.
 
 &#11014; [Go back to Table of Contents](#toc)
