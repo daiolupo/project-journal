@@ -2529,16 +2529,16 @@ module.exports = router;
 | 1   |  Test user POST login request   | Run POST http login request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   | email, password |        login         |        login         |  pass  |
 | 2   |  Test user POST login request   | Run POST http login request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   | email, password |         200          |         200          |  pass  |
 | 3   | Test user POST signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click PATCH<br/>4. Click SEND  | email, password |        signup        |        signup        |  pass  |
-| 4   | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   | email, password |         200          |         200          |  pass  |
-| 5   | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   | email, password |   password hashed    |   password hashed    |  pass  |
-| 6   | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   |  empty fields   |    error message     |    error message     |  pass  |
-| 7   | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   |  empty fields   |         400          |         400          |  pass  |
-| 8   | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   |   email only    |    error message     |    error message     |  pass  |
-| 9   | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   |   email only    |         400          |         400          |  pass  |
-| 10  | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   |  weak password  |    error message     |    error message     |  pass  |
-| 11  | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   |  weak password  |         400          |         400          |  pass  |
-| 12  | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click DELETE<br/>4. Click SEND | email, password | email already exists | email already exists |  pass  |
-| 13  | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   | email, password |         400          |         400          |  pass  |
+| 4   | Test user POST signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   | email, password |         200          |         200          |  pass  |
+| 5   | Test user POST signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   | email, password |   password hashed    |   password hashed    |  pass  |
+| 6   | Test user POST signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   |  empty fields   |    error message     |    error message     |  pass  |
+| 7   | Test user POST signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   |  empty fields   |         400          |         400          |  pass  |
+| 8   | Test user POST signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   |   email only    |    error message     |    error message     |  pass  |
+| 9   | Test user POST signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   |   email only    |         400          |         400          |  pass  |
+| 10  | Test user POST signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   |  weak password  |    error message     |    error message     |  pass  |
+| 11  | Test user POST signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   |  weak password  |         400          |         400          |  pass  |
+| 12  | Test user POST signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click DELETE<br/>4. Click SEND | email, password | email already exists | email already exists |  pass  |
+| 13  | Test user POST signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   | email, password |         400          |         400          |  pass  |
 
 **REPORT**
 
