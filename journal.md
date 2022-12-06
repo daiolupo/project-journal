@@ -26,6 +26,7 @@
 13. [Team Meeting 28 Nov 2022](#13meeting)
 14. [Team Meeting 30 Nov 2022](#14meeting)
 15. [Team Meeting 05 Dec 2022](#15meeting)
+16. [Team Meeting 06 Dec 2022](#16meeting)
 
 ## Daily Status reports
 
@@ -64,6 +65,7 @@
 33. [Daily Status report 01 Dec 2022](#33daily)
 34. [Daily Status report 02 Dec 2022](#34daily)
 35. [Daily Status report 05 Dec 2022](#35daily)
+36. [Daily Status report 06 Dec 2022](#36daily)
 
 <hr>
 
@@ -2526,7 +2528,7 @@ module.exports = router;
 | --- | :-----------------------------: | :--------------------------: | :----------------------------------------------------------------------------- | :-------------: | :------------------: | :------------------: | :----: |
 | 1   |  Test user POST login request   | Run POST http login request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   | email, password |        login         |        login         |  pass  |
 | 2   |  Test user POST login request   | Run POST http login request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   | email, password |         200          |         200          |  pass  |
-| 3   | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click PATCH<br/>4. Click SEND  | email, password |        signup        |        signup        |  pass  |
+| 3   | Test user POST signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click PATCH<br/>4. Click SEND  | email, password |        signup        |        signup        |  pass  |
 | 4   | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   | email, password |         200          |         200          |  pass  |
 | 5   | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   | email, password |   password hashed    |   password hashed    |  pass  |
 | 6   | Test user UPDATE signup request | Run POST http signup request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND   |  empty fields   |    error message     |    error message     |  pass  |
@@ -2931,5 +2933,80 @@ Progress so far:
 - What went well was working with the team to get rid of bugs in the login feature through a teams call peer programming session.
 - What didn't go well was having to spend two hours trying to get the feature working.
 - What I can improve next time is have the change to learn from other team members problem solving skills.
+
+&#11014; [Go back to Table of Contents](#toc)
+
+## <mark>16 Team Meeting 06/12/2022</mark><a name="16meeting"></a>
+
+### Date
+
+06 December 2022
+
+### Start time
+
+1.30 pm
+
+### Attendance
+
+- Leone Krauze
+- Dwain Aiolupotea
+- John Wright
+- Brayden Dawson
+
+### Absent
+
+- 0
+
+### Agenda
+
+Team meeting:
+
+- Standup
+
+### Notes from the Meeting
+
+Progress so far:
+
+- We discussed the slideshow audio recordings and the presentation for 7th Dec at 9.30am. Leone is looking after that.
+- We discussed how we will present the website application. Brayden will fire up the web app and do a demo. Other team members will also help out with the demo.
+- We also discussed how to give authorized users access to edit tutorials and log out. John wanted to handle that side of it.
+- We discussed the privacy policy to be place may be in the footer of the website.
+- We decided to have a team meeting at 9am
+
+### Meeting ended
+
+- 2:03 pm
+
+&#11014; [Go back to Table of Contents](#toc)
+
+## 36 Daily Status report 06/12/2022<a name="36daily"></a>
+
+### Date
+
+06 December 2022
+
+### What I completed today
+
+- I completed the peer self evaluation forms for the whole team including myself.
+- I also completed putting the End-to-end points postman testing plan into the team documents for the project.
+- I completed an audio recording for a powerpoint slideshow presentation for the 7th December 2022 at 9.30am. To be presented to the lecturer and the class online at the teams meeting. 
+
+### Any issues preventing you from progressing
+
+- The issues I had today was making sure I understood how the website application works. How it all works together and making sure I understood the backend and the frontend.
+
+### Actions taken
+
+- The actions I took today was researching and going back to review what I'd learned about the MERN stack.
+
+### Smart goal for the next day
+
+- The smart goal for the tomorrow is get everything ready for tomorrows presentation and also getting my individual assessments ready to be submitted.
+
+### Personal reflection
+
+- What went well was getting a lot of work done and also catching up with team members to prepare for the presentation.
+- What didn't go well was the audio recording took up a lot of time. I kept taking longer than I thought to finish it.
+- What I can improve on next time is to strive for progress not perfection.
 
 &#11014; [Go back to Table of Contents](#toc)
