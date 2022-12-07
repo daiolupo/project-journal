@@ -1529,13 +1529,13 @@ module.exports = router;
 
 **TEST CASES**
 
-| ID  |        Test Case Objective        |       Requisite        | Steps                                                                         |    Input    |     Result      |    Expected     | Status |
-| --- | :-------------------------------: | :--------------------: | :---------------------------------------------------------------------------- | :---------: | :-------------: | :-------------: | :----: |
-| 1   |     Test content POST request     | Run POST http request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND  |    JSON     |       400       |       400       |  pass  |
-| 2   |     Test content POST request     | Run POST http request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND  |    JSON     |       404       |       404       |  pass  |
-| 3   | Test content UPDATE request by id | Run PATCH http request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click PATCH<br/>4. Click SEND | /content/id | updated content | updated content |  pass  |
-| 4   | Test content UPDATE request by id | Run PATCH http request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click PATCH<br/>4. Click SEND | /content/id |       200       |       200       |  pass  |
-| 5   | Test content UPDATE request by id | Run PATCH http request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click PATCH<br/>4. Click SEND | /content/id |       404       |       404       |  pass  |
+| ID  |      Test Case Objective       |       Requisite       | Steps                                                                        |   Input   |          Result           |         Expected          | Status |
+| --- | :----------------------------: | :-------------------: | :--------------------------------------------------------------------------- | :-------: | :-----------------------: | :-----------------------: | :----: |
+| 1   |    Test content GET request    | Run GET http request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click GET<br/>4. Click SEND  | /content  |        All Content        |        All Content        |  pass  |
+| 2   |    Test content GET request    | Run GET http request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click GET<br/>4. Click SEND  |    200    |            200            |       Equal to 200        |  pass  |
+| 3   | Test content GET request by id | Run GET http request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click GET<br/>4. Click SEND  | /read/id  | Single content with an id | Single content with an id |  pass  |
+| 4   |   Test content POST request    | Run POST http request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND | JSON data |         Post data         |         Post data         |  pass  |
+| 5   |   Test content POST request    | Run POST http request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND | JSON data |            200            |            200            |  pass  |
 
 **REPORT**
 
