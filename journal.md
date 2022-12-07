@@ -66,6 +66,7 @@
 34. [Daily Status report 02 Dec 2022](#34daily)
 35. [Daily Status report 05 Dec 2022](#35daily)
 36. [Daily Status report 06 Dec 2022](#36daily)
+37. [Daily Status report 07 Dec 2022](#37daily)
 
 <hr>
 
@@ -3008,5 +3009,36 @@ Progress so far:
 - What went well was getting a lot of work done and also catching up with team members to prepare for the presentation.
 - What didn't go well was the audio recording took up a lot of time. I kept taking longer than I thought to finish it.
 - What I can improve on next time is to strive for progress not perfection.
+
+&#11014; [Go back to Table of Contents](#toc)
+
+## 37 Daily Status report 07/12/2022<a name="37daily"></a>
+
+### Date
+
+07 December 2022
+
+### What I completed today
+
+- I completed the back-end explanation as part of our team presentation today with the lecturer and the rest of the class.
+- I also completed the group/team evaluation form.
+
+### Any issues preventing you from progressing
+
+- The issues I had today was what to submit for reflective journal.
+
+### Actions taken
+
+- The actions I took today was asking my team what we needed to submit for our assessment.
+
+### Smart goal for the next day
+
+- The smart goal for the tomorrow is prepare individual assessment file for submitting on canvas.
+
+### Personal reflection
+
+- What went well was learning from my peers on how to present a project.
+- What didn't go well was not truly understanding the work that you've done and to explain it to someone else clearly.
+- What I can improve on next time is practice presenting your work to other people or teach someone else how to code for your own learning.
 
 &#11014; [Go back to Table of Contents](#toc)
