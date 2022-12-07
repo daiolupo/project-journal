@@ -70,6 +70,8 @@
 
 <hr>
 
+# Journal Entries
+
 ## <mark>01 Team Meeting 12/10/2022</mark><a name="01meeting"></a>
 
 ### Date
