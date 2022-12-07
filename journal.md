@@ -5,9 +5,10 @@
 ## Individual Reflective Journal
 
 1. [Reflective Journal for Project Proposal](#01proposal)
-2. [First Sprint](#1stSprint)
-3. [Second Sprint](#2ndSprint)
-4. [Third Sprint](#3rdSprint)
+2. [Reflective Jounral for Project Execution - First Sprint](#1stSprint)
+3. [Reflective Jounral for Project Execution - Second Sprint](#2ndSprint)
+4. [Reflective Jounral for Project Execution - Third Sprint](#3rdSprint)
+5. [Reflective Journal for Project Presentation](#02presentation)
 
 ## Team Meetings
 
@@ -1528,13 +1529,13 @@ module.exports = router;
 
 **TEST CASES**
 
-| ID  |     Test Case Objective     |       Requisite       | Steps                                                                                          |   Input   |          Result           |         Expected          | Status |
-| --- | :-------------------------: | :-------------------: | :--------------------------------------------------------------------------------------------- | :-------: | :-----------------------: | :-----------------------: | :----: |
-| 1   |  Test content GET request   | Run GET http request  | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click GET</li><li>Click SEND</li></ol>  | /content  |        All content        |        All content        |  Pass  |
-| 2   |  Test content GET request   | Run GET http request  | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click GET</li><li>Click SEND</li></ol>  |    200    |            200            |       Equal to 200        |  Pass  |
-| 3   | Test content GET id request | Run GET http request  | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click GET</li><li>Click SEND</li></ol>  | /read/id  | single content with an id | single content with an id |  Pass  |
-| 4   |  Test content POST request  | Run POST http request | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click POST</li><li>Click SEND</li></ol> | JSON data |         post data         |         post data         |  Pass  |
-| 5   |  Test content POST request  | Run POST http request | <ol><li>Open Postman</li><li>Type URI endpoint</li><li>Click POST</li><li>Click SEND</li></ol> | JSON data |            200            |            200            |  Pass  |
+| ID  |        Test Case Objective        |       Requisite        | Steps                                                                         |    Input    |     Result      |    Expected     | Status |
+| --- | :-------------------------------: | :--------------------: | :---------------------------------------------------------------------------- | :---------: | :-------------: | :-------------: | :----: |
+| 1   |     Test content POST request     | Run POST http request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND  |    JSON     |       400       |       400       |  pass  |
+| 2   |     Test content POST request     | Run POST http request  | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click POST<br/>4. Click SEND  |    JSON     |       404       |       404       |  pass  |
+| 3   | Test content UPDATE request by id | Run PATCH http request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click PATCH<br/>4. Click SEND | /content/id | updated content | updated content |  pass  |
+| 4   | Test content UPDATE request by id | Run PATCH http request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click PATCH<br/>4. Click SEND | /content/id |       200       |       200       |  pass  |
+| 5   | Test content UPDATE request by id | Run PATCH http request | 1. Open Postman<br/>2. Type URI endpoint<br/>3. Click PATCH<br/>4. Click SEND | /content/id |       404       |       404       |  pass  |
 
 **REPORT**
 
@@ -3042,5 +3043,31 @@ Progress so far:
 - What went well was learning from my peers on how to present a project.
 - What didn't go well was not truly understanding the work that you've done and to explain it to someone else clearly.
 - What I can improve on next time is practice presenting your work to other people or teach someone else how to code for your own learning.
+
+&#11014; [Go back to Table of Contents](#toc)
+
+## Individual Reflective Journal for the Software Project Presentation<a name="02presentation"></a>
+
+### 1. Summary of personal contributions:
+
+#### The tasks I completed
+
+The tasks I completed were:
+
+### 2. A Reflection on the Teamwork:
+
+#### What went well
+
+What went well with the team was
+
+#### What issues were met and how they were resolved
+
+**1 ISSUE**
+
+What issues were met during the project was
+
+**1 RESOLUTION**
+
+How we solved the issue
 
 &#11014; [Go back to Table of Contents](#toc)
