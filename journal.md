@@ -3260,6 +3260,12 @@ PRESENTATION
 
 I also completed a recording of an audio file to go with one of the slides for our group presentation. The part I was responsible for was the Colour Theme for the website application.
 
+**Manuscript for the presentation for the Audio recording**
+> This is the color scheme we have decided to go with.
+> This pale neutral color scheme compliments the background gradient along with the logo.
+> The fonts are easy to read and minimalistic to ensure that the user is not overloaded with multiple different styles. This helps people with sight problems and reading difficulties.
+> As per the requirements document we have included a donations page for sponsors to donate funds and a donating goods page for those who would like to donate items rather than money. This gives all types of donors a chance to help support the foundation and the children in need.
+
 <audio src="audio/Audio-recording-presentation.mp3" controls preload></audio>
 
 <img src="img\journal\presentation-slide.jpg" width="950">
