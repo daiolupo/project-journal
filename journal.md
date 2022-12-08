@@ -3055,26 +3055,25 @@ Progress so far:
 
 ### What I completed today
 
-- I completed the back-end explanation as part of our team presentation today with the lecturer and the rest of the class.
-- I also completed the group/team evaluation form.
+- I completed the individual reflective journal for the Software presentation.
 
 ### Any issues preventing you from progressing
 
-- The issues I had today was what to submit for reflective journal.
+- The issues I today was remembering what we did this week for the last individual reflective journal.
 
 ### Actions taken
 
-- The actions I took today was asking my team what we needed to submit for our assessment.
+- The actions I took today was creating a checklist for myselft of what I needed to complete for the individual assessments.
 
 ### Smart goal for the next day
 
-- The smart goal for the tomorrow is prepare individual assessment file for submitting on canvas.
+- The smart goal for tomorrow is to submit all the assessments for the individual and project assessment.
 
 ### Personal reflection
 
-- What went well was learning from my peers on how to present a project.
-- What didn't go well was not truly understanding the work that you've done and to explain it to someone else clearly.
-- What I can improve on next time is practice presenting your work to other people or teach someone else how to code for your own learning.
+- What went well was reflecting on my progress and how far we've come as a team of four. Experienced a lot of frustration and problem solving. But in the end we accomplished a lot as a team and individually we learnt a lot about how to work with each other as developers.
+- What didn't go well was how to deal with an issue that arose that was not planned out in the beginning. May be we could have approached it differently.
+- What I can improve on next time is may be we could have used a controller book. That would have helped with new challenges that could arise in a project like this one.
 
 &#11014; [Go back to Table of Contents](#toc)
 
