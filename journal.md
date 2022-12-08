@@ -68,6 +68,7 @@
 35. [Daily Status report 05 Dec 2022](#35daily)
 36. [Daily Status report 06 Dec 2022](#36daily)
 37. [Daily Status report 07 Dec 2022](#37daily)
+38. [Daily Status report 08 Dec 2022](#38daily)
 
 <hr>
 
@@ -3046,28 +3047,246 @@ Progress so far:
 
 &#11014; [Go back to Table of Contents](#toc)
 
+## 38 Daily Status report 08/12/2022<a name="38daily"></a>
+
+### Date
+
+08 December 2022
+
+### What I completed today
+
+- I completed the back-end explanation as part of our team presentation today with the lecturer and the rest of the class.
+- I also completed the group/team evaluation form.
+
+### Any issues preventing you from progressing
+
+- The issues I had today was what to submit for reflective journal.
+
+### Actions taken
+
+- The actions I took today was asking my team what we needed to submit for our assessment.
+
+### Smart goal for the next day
+
+- The smart goal for the tomorrow is prepare individual assessment file for submitting on canvas.
+
+### Personal reflection
+
+- What went well was learning from my peers on how to present a project.
+- What didn't go well was not truly understanding the work that you've done and to explain it to someone else clearly.
+- What I can improve on next time is practice presenting your work to other people or teach someone else how to code for your own learning.
+
+&#11014; [Go back to Table of Contents](#toc)
+
 ## Individual Reflective Journal for the Software Project Presentation<a name="02presentation"></a>
 
 ### 1. Summary of personal contributions:
 
 #### The tasks I completed
 
-The tasks I completed were:
+IMAGES FOR TESTIMONY WEB PAGE
+
+The team needed some generic images of mothers for the testimonies page. So I custom designed vector images using Adobe illustrator. I created five various images.
+
+<img src="img\journal\01-birthMom.jpg" width="200"><img src="img\journal\02-birthMom.jpg" width="200"><img src="img\journal\03-birthMom.jpg" width="200"><img src="img\journal\04-birthMom.jpg" width="200"><img src="img\journal\05-birthMom.jpg" width="200">
+
+Here are the images in the website testimony page.
+
+<img src="img\journal\01-testimony-webpage.jpg" width="950">
+
+<img src="img\journal\02-testimony-webpage.jpg" width="950">
+
+TESTING AUTHORIZATION REQUESTS IN POSTMAN APP FOR THE BACK-END
+
+I completed the task of testing the GET routes for all the content for an unauthorized user with the Postman app.
+
+<img src="img\authorization\01-Auth-GET-allcontent-request-unauthorized.jpg" width="950">
+
+I completed the task of testing the GET routes for all the content user status to equal a 401 message for an unauthorized user with the Postman app.
+
+<img src="img\authorization\02-Auth-GET-allcontent-request-token-required.jpg" width="950">
+
+I completed the task of testing the GET routes for all the content, including a user status to equal a 200 message for an authorized user with the Postman app.
+
+<img src="img\authorization\03-Auth-GET-allcontent-authorized-user-token.jpg" width="950">
+
+CODING THE AUTHORIZATION FOR SIGNUP IN THE FRONT-END
+
+This is the draft version of the code in the frontend for the signup to connect to the backend using Axios to handle the requests. I also added the code to populate the database with a new users signup details.
+
+client/src/Components/pages/SignUp.jsx
+
+```
+import React, { useState } from "react";
+import axios from "axios";
+
+function SignUp() {
+  // Functions
+  // const [firstName, setFirstName] = useState('');
+  // const [lastName, setLastName] = useState('');
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  // Axios request
+  //const addUser = () => {
+  async function addUser() {
+    axios
+      .post("http://localhost:4000/api/user/signup", {
+        // first_name: firstName,
+        // last_name: lastName,
+        email: email,
+        password: password,
+      })
+      //what it does with successfull POST
+      .then(function(response) {
+        console.log(response);
+        console.log("user created successfully");
+        alert("User created"); // delete in production
+        document.location.href = "/login";
+      })
+      .catch((error) => {
+        alert("other error");
+        if (error.response) {
+          // The request was made and the server responded with a status code
+          // that falls out of the range of 2xx
+          console.log(error.response.data);
+          console.log(error.response.status);
+          console.log(error.response.headers);
+          alert("response error");
+        } else if (error.request) {
+          // The request was made but no response was received
+          // `error.request` is an instance of XMLHttpRequest in the browser and an instance of
+          // http.ClientRequest in node.js
+          console.log(error.request);
+          alert("request error"); // delete in production
+        } else {
+          // Something happened in setting up the request that triggered an Error
+          console.log("Error", error.message);
+        }
+        console.log(error.config);
+      });
+  }
+
+  ...
+
+```
+
+CODING THE AUTHORIZATION FOR LOGIN IN THE FRONT-END
+
+This is the draft version of the code to connect the login page to the back-end. This was a little bit tricky for me and I asked the team to do a peer programming session after getting into some trouble. I'm not very confident with ReactJS so I couldn't solve a error that I was getting.
+
+```
+import React, { useState } from "react";
+
+import axios from 'axios';
+import { useNavigate } from "react-router-dom";
+
+
+function Login({isLoggedIn, makeLoggedIn}) {
+
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  // // React States
+  const [errorMessages, setErrorMessages] = useState({});
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  //navigation
+  const navigate = useNavigate();
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    axios
+      .post("http://localhost:4000/api/user/login", {
+        email: email,
+        password: password,
+      })
+      .then((response) => {
+        //console.log("Is this working??");
+        //console.log(response.data);
+        // setAuthToken(token);
+
+        localStorage.setItem("token", response.data.token)
+        alert("Logged In Successfully");
+        //set the login state in parent component
+        makeLoggedIn(true)
+        //return to home page
+        navigate("/")
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+
+...
+
+```
+
+This is the error that I got during development of the login page and discovered it was something to do with the hooks. So I had to move some hooks to the top of the function.
+
+<img src="img\authorization\error-message.png" width="950">
+
+During a pair programming session we had to do some adjustments to the back-end. We kind of figured out there was something wrong with the headers request. So we commented out one line of code where it splits the 'bearer token' to get the just the token, `const accessToken = token.split(" ")[1];` and for some reason it worked.
+
+```
+const jwt = require("jsonwebtoken");
+const User = require("../models/userModel");
+
+const requireAuth = async (req, res, next) => {
+  // verification and auth
+  const token = req.headers["x-access-token"];
+  if (!token) {
+    return res.status(401).json({ error: "Authorised token required" });
+  }
+  // get auth string from header
+  // const accessToken = token.split(" ")[1];
+  try {
+    const { _id } = jwt.verify(token, process.env.SECRET);
+    req.user = await User.findOne({ _id }).select("_id");
+    next();
+  } catch (error) {
+    console.log(error);
+    res.status(401).json({ error: "Unauthorised request" });
+  }
+};
+
+module.exports = requireAuth;
+
+```
+
+After some of those changes to the signup and login pages were partially working I committed my changes. After committing the changes I pushed all the commits to the remote repo for a pull request.
+
+<img src="img\authorization\04-merge-authorization-authentication.jpg" width="950">
+
+PRESENTATION
+
+I also completed a recording of an audio file to go with one of the slides for our group presentation. The part I was responsible for was the Colour Theme for the website application.
+
+<audio src="audio/Audio-recording-presentation.mp3" controls preload></audio>
+
+<img src="img\journal\presentation-slide.jpg" width="950">
 
 ### 2. A Reflection on the Teamwork:
 
 #### What went well
 
-What went well with the team was
+What went well with the team was the whole team put in a lot of effort and time into the project. One of the most important forms of communication was Microsoft teams chat. It was probably the most effective way of communicating for us and kept it up to date with everything. There were no real conflicts between team members and some members worked faster than others.
 
 #### What issues were met and how they were resolved
 
-**1 ISSUE**
+**ISSUE**
 
-What issues were met during the project was
+DEVELOPMENT
+What issues were met during the project was lots of bugs during development and extra decisions that were made towards the end of development. When we worked on the proposal we might have missed a few things like how the admin would operate CRUD operations. It showed when we didn't know what to do when we got to working on the Admin part. That's when the team kind got a bit lost and mainly waited till someone else would take care of the problem.
 
-**1 RESOLUTION**
+AUTHORIZATION/AUTHENTICATION
+Another issue we faced was implementing Authentication/authorization JWT tokens for signup and login. Our issue was with an authorized user not working as we intended. We would get errors or bugs sometimes when testing the authorization of users.
 
-How we solved the issue
+**RESOLUTION**
+
+DEVELOPMENT
+How we solved the issue was one of the team members decided to take care of it. Coming up with a quick solution by adding edit, delete and add buttons displayed when an Admin user is logged in.
+
+AUTHORIZATION/AUTHENTICATION
+We managed to get some things working with authorization but it wasn't a solid fix. It is an ongoing issue to resolve with more tests, bug fixing and more research on how to come up with a better solution.
 
 &#11014; [Go back to Table of Contents](#toc)
