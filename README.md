@@ -2,7 +2,7 @@
 
 Individual reflective journal Index
 
-1. [Table of contents for the journal entries](https://daiolupo.github.io/personal-reflection/journal)
+1. [Table of contents for the journal entries](https://daiolupo.github.io/project-journal/journal)
 2. [Reflective Journal for Project Proposal](https://daiolupo.github.io/project-journal/journal#individual-reflective-journal-for-the-software-project-proposal)
 3. [Reflective Journal for Project Execution - First Sprint](https://daiolupo.github.io/project-journal/journal#first-sprint)
 4. [Reflective Journal for Project Execution - Second Sprint](https://daiolupo.github.io/project-journal/journal#second-sprint)
